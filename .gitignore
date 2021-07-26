@@ -1,0 +1,15 @@
+##
+## Eclipse
+##
+
+target/
+.settings/
+.project
+.classpath
+
+##
+## Java
+##
+*.class
+*.jar
+module-info.java
