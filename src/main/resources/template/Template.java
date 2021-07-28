@@ -23,7 +23,7 @@ import java.util.stream.Stream;
  * ${name}
  * @see <a href="${url}">${url}</a>
  */
-public class ${class_name} {
+class ${class_name} {
 
     private final boolean sample;
     private final InputStream in;
