@@ -1,7 +1,6 @@
 package com.github.pareronia.codechef.cdiglnum;
 
 import static java.util.Arrays.asList;
-import static java.util.stream.Collectors.toList;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
@@ -15,10 +14,11 @@ import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.StringTokenizer;
 import java.util.function.Supplier;
-import java.util.stream.Stream;
 
 /**
  * Chef and Digits of Large Numbers
@@ -70,6 +70,8 @@ class ChefAndDigitsOfLargeNumbers {
                 /*20*/ 2_432_902_008_176_640_000L
         };
         
+        private static final Map<Integer, BigInteger> MAP = new HashMap<>();
+        
         @SuppressWarnings("unchecked")
         public static <N extends Number> N fact(final int n) {
             if (n <= 20) {
@@ -83,11 +85,16 @@ class ChefAndDigitsOfLargeNumbers {
             if (n <= 20) {
                 return BigInteger.valueOf(fact(n).longValue());
             }
-            return BigInteger.valueOf(n).multiply(bigFact(n - 1));
+            if (MAP.containsKey(n)) {
+                return MAP.get(n);
+            }
+            final BigInteger fact = BigInteger.valueOf(n).multiply(bigFact(n - 1));
+            MAP.put(n, fact);
+            return fact;
         }
     }
     
-    private Result<?> handleTestCase(final Integer i, final FastScanner sc) {
+    private void handleTestCase(final Integer i, final FastScanner sc) {
         final long n = sc.nextLong();
         int ans = 0;
         for (int j = 0; j < n; j++) {
@@ -113,26 +120,18 @@ class ChefAndDigitsOfLargeNumbers {
                 }
             }
         }
-        return new Result<>(i, asList(ans));
+        this.out.println(ans);
     }
     
     public void solve() {
         try (final FastScanner sc = new FastScanner(this.in)) {
             final int numberOfTestCases = sc.nextInt();
-            final List<Result<?>> results
-                    = Stream.iterate(1, i -> i + 1).limit(numberOfTestCases)
-                            .map(i -> handleTestCase(i, sc))
-                            .collect(toList());
-            output(results);
+            for (int i = 0; i < numberOfTestCases; i++) {
+                handleTestCase(i, sc);
+            }
         }
     }
 
-    private void output(final List<Result<?>> results) {
-        results.forEach(r -> {
-            r.getValues().stream().map(Object::toString).forEach(this.out::println);
-        });
-    }
-    
     public static void main(final String[] args) throws IOException, URISyntaxException {
         final boolean sample = isSample();
         final InputStream is;
@@ -231,21 +230,6 @@ class ChefAndDigitsOfLargeNumbers {
             } catch (final IOException e) {
                 // ignore
             }
-        }
-    }
-    
-    private static final class Result<T> {
-        @SuppressWarnings("unused")
-        private final int number;
-        private final List<T> values;
-        
-        public Result(final int number, final List<T> values) {
-            this.number = number;
-            this.values = values;
-        }
-
-        public List<T> getValues() {
-            return values;
         }
     }
 }
