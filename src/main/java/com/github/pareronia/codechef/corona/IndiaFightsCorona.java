@@ -46,35 +46,25 @@ class IndiaFightsCorona {
     }
     
     private static class Graph {
-        
-        public static List<int[]>[] toAdjacencyListBidi(final int n, final int[][] e) {
-            return toAdjacencyList(n, e, true);
-        }
 
-        @SuppressWarnings("unchecked")
-        private static List<int[]>[] toAdjacencyList(final int n, final int[][] e, final boolean bidi) {
-            assert e[0].length == 3;
-            final List<int[]>[] a = new List[n];
+        public static Adjacency[] newAdjacencyList(final int n) {
+            final Adjacency[] adj = new Adjacency[n];
             for (int j = 0; j < n; j++) {
-                a[j] = new ArrayList<>();
+                adj[j] = new Adjacency();
             }
-            for (int j = 0; j < e.length; j++) {
-                final int v1 = e[j][0];
-                final int v2 = e[j][1];
-                a[v1].add(new int[] { v2, e[j][2] });
-                if (bidi) {
-                    a[v2].add(new int[] { v1, e[j][2] });
-                }
-            }
-            return a;
+            return adj;
+        }
+        
+        public static class Adjacency extends ArrayList<int[]> {
+
+            private static final long serialVersionUID = 1L;
         }
     }
-    
+        
     private static class Dijkstra {
         
-        public static long[] get(final List<int[]>[] g, final int source) {
-            final int n = g.length;
-            final int path[] = new int[n];
+        public static long[] get(final Graph.Adjacency[] adj, final int source) {
+            final int n = adj.length;
             final long dist[] = new long[n];
             Arrays.fill(dist, Long.MAX_VALUE);
             dist[source] = 0;
@@ -83,11 +73,10 @@ class IndiaFightsCorona {
             queue.add(source);
             while (!queue.isEmpty()) {
                 final int u = queue.poll();
-                for (final int[] v : g[u]) {
+                for (final int[] v : adj[u]) {
                     final long alt = dist[u] + v[1];
                     if (alt < dist[v[0]]) {
                         dist[v[0]] = alt;
-                        path[v[0]] = u;
                         queue.add(v[0]);
                     }
                 }
@@ -100,19 +89,20 @@ class IndiaFightsCorona {
         final int n = sc.nextInt();
         final int m = sc.nextInt();
         final int k = sc.nextInt();
-        final int[][] e = new int[k + m][3];
+        final Graph.Adjacency[] adj = Graph.newAdjacencyList(n + 1);
         for (int j = 0; j < k; j++) {
             final int kk = sc.nextInt();
             final int c = sc.nextInt();
-            e[j] = new int[] { 0, kk, c };
+            adj[0].add(new int[] { kk, c });
+            adj[kk].add(new int[] { 0, c });
         }
         for (int j = k; j < k + m; j++) {
             final int c1 = sc.nextInt();
             final int c2 = sc.nextInt();
             final int d = sc.nextInt();
-            e[j] = new int[] { c1, c2, d };
+            adj[c1].add(new int[] { c2, d });
+            adj[c2].add(new int[] { c1, d });
         }
-        final List<int[]>[] adj = Graph.toAdjacencyListBidi(n + 1, e);
         final long[] dist = Dijkstra.get(adj, 0);
         for (int j = 1; j <= n; j++) {
             this.out.print(dist[j]);
@@ -120,7 +110,7 @@ class IndiaFightsCorona {
         }
         this.out.println();
     }
-    
+
     public void solve() {
         try (final FastScanner sc = new FastScanner(this.in)) {
             final int numberOfTestCases = sc.nextInt();
