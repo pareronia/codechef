@@ -47,10 +47,10 @@ class IndiaFightsCorona {
     
     private static class Graph {
         
-        public static List<int[]>[] toAdjacencyList(final int n, final int[][] e) {
-            return toAdjacencyList(n, e, false);
+        public static List<int[]>[] toAdjacencyListBidi(final int n, final int[][] e) {
+            return toAdjacencyList(n, e, true);
         }
-        
+
         @SuppressWarnings("unchecked")
         private static List<int[]>[] toAdjacencyList(final int n, final int[][] e, final boolean bidi) {
             assert e[0].length == 3;
@@ -100,34 +100,25 @@ class IndiaFightsCorona {
         final int n = sc.nextInt();
         final int m = sc.nextInt();
         final int k = sc.nextInt();
-        final int[][] h = new int[k][];
-        final int[][] e = new int[k + 2 * m][3];
+        final int[][] e = new int[k + m][3];
         for (int j = 0; j < k; j++) {
-            final int kk = sc.nextInt() -1;
+            final int kk = sc.nextInt();
             final int c = sc.nextInt();
-            h[j] = new int[] { kk, c };
+            e[j] = new int[] { 0, kk, c };
         }
-        for (int j = 0; j < 2 * m; j += 2) {
-            final int c1 = sc.nextInt() - 1;
-            final int c2 = sc.nextInt() - 1;
+        for (int j = k; j < k + m; j++) {
+            final int c1 = sc.nextInt();
+            final int c2 = sc.nextInt();
             final int d = sc.nextInt();
             e[j] = new int[] { c1, c2, d };
-            e[j + 1] = new int[] { c2, c1, d };
         }
-        for (int j = 0; j < k; j++) {
-            e[2 * m + j] = new int[] { h[j][0], n + h[j][0], h[j][1] };
-        }
-        final List<int[]>[] adj = Graph.toAdjacencyList(n + k, e);
-        for (int j = 0; j < n; j++) {
-            final long[] dist = Dijkstra.get(adj, j);
-            long min = Long.MAX_VALUE;
-            for (int jj = 0; jj < k; jj++) {
-                min = Math.min(min, dist[n + h[jj][0]]);
-            }
-            this.out.print(min);
+        final List<int[]>[] adj = Graph.toAdjacencyListBidi(n + 1, e);
+        final long[] dist = Dijkstra.get(adj, 0);
+        for (int j = 1; j <= n; j++) {
+            this.out.print(dist[j]);
             this.out.print(" ");
         }
-        this.out.println("");
+        this.out.println();
     }
     
     public void solve() {
