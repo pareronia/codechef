@@ -13,8 +13,9 @@ import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.StringTokenizer;
 import java.util.function.Supplier;
 
@@ -43,55 +44,17 @@ class JustAGraph {
         System.out.println(supplier.get());
     }
     
-    private static class Adjacency extends ArrayList<Integer> {
-
-        private static final long serialVersionUID = 1L;
-    }
-    
-    private static Adjacency[] newAdjacencyList(final int n) {
-        final Adjacency[] adj = new Adjacency[n];
-        for (int j = 0; j < n; j++) {
-            adj[j] = new Adjacency();
-        }
-        return adj;
-    }
-    
-    private void dfs(final Adjacency[] adj, final boolean[] vis, final int v) {
-        vis[v] = true;
-        for (final int n : adj[v]) {
-            if (!vis[n]) {
-                dfs(adj, vis, n);
-            }
-        }
-    }
-    
     private void handleTestCase(final Integer i, final FastScanner sc) {
         final int n = sc.nextInt();
-        final int[] v = new int[n + 1];
-        for (int j = 1; j <= n; j++) {
-            v[j] = sc.nextInt();
+        final Set<Integer> seen = new HashSet<>();
+        for (int j = 0; j < n; j++) {
+            seen.add(sc.nextInt() - j);
         }
-        final Adjacency[] adj = newAdjacencyList(n + 1);
-        for (int j = 1; j <= n; j++) {
-            for (int k = j + 1; k <= n; k++) {
-                if (v[k] - v[j] != k - j) {
-                    adj[j].add(k);
-                    adj[k].add(j);
-                }
-            }
+        if (seen.size() == 1) {
+            this.out.println(n);
+        } else {
+            this.out.println(1);
         }
-        for (int j = 1; j <= n; j++) {
-            v[j] = j;
-        }
-        final boolean[] vis = new boolean[n + 1];
-        int ans = 0;
-        for (int j = 1; j <= n; j++) {
-            if (!vis[j]) {
-                dfs(adj, vis, j);
-                ans++;
-            }
-        }
-        this.out.println(ans);
     }
     
     public void solve() {
