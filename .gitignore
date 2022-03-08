@@ -13,3 +13,13 @@ target/
 *.class
 *.jar
 module-info.java
+
+##
+## Python
+##
+.venv
+
+##
+## Vim
+##
+*.swp
