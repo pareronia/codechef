@@ -61,7 +61,7 @@ def main():
         for file in files:
             if not file.endswith(".java"):
                 continue
-            problem_file = os.path.join(path, file)
+            problem_file = path + "/" + file.replace('\\', '/')
             info = get_problem_info(problem_file)
             info['file'] = problem_file
             infos.append(info)
