@@ -11,6 +11,7 @@ https://www.codechef.com/
 | ALTERNATEDIV | [Alternating Divisibility](https://www.codechef.com/COOK139C/problems/ALTERNATEDIV) | [Java](src/main/java/com/github/pareronia/codechef/alternatediv/AlternatingDivisibility.java) |
 | ANGTRICH | [Triangle With Angle](https://www.codechef.com/CCSTART2/problems/ANGTRICH) | [Java](src/main/java/com/github/pareronia/codechef/angtrich/TriangleWithAngle.java) |
 | BLACKCEL | [Black cells in a chessboard](https://www.codechef.com/problems/BLACKCEL) | [Java](src/main/java/com/github/pareronia/codechef/blackcel/BlackCellsInAChessboard.java) |
+| BOMBTHEBASE | [Bomb the base](https://www.codechef.com/START29D/problems/BOMBTHEBASE) | [Java](src/main/java/com/github/pareronia/codechef/bombthebase/BombTheBase.java) |
 | BOOKLIST | [List of Books](https://www.codechef.com/IARCSJUD/problems/BOOKLIST) | [Java](src/main/java/com/github/pareronia/codechef/booklist/ListOfBooks.java) |
 | BUS | [Bus full of passengers](https://www.codechef.com/problems/BUS) | [Java](src/main/java/com/github/pareronia/codechef/bus/BusFullOfPassengers.java) |
 | BUTYPAIR | [Beautiful Pairs](https://www.codechef.com/LTIME98C/problems/BUTYPAIR) | [Java](src/main/java/com/github/pareronia/codechef/butypair/BeautifulPairs.java) |
@@ -32,6 +33,7 @@ https://www.codechef.com/
 | ETUP | [Even tuples](https://www.codechef.com/START6C/problems/ETUP) | [Java](src/main/java/com/github/pareronia/codechef/etup/Main.java) |
 | EVENGAME | [](https://www.codechef.com/problems/EVENGAME) | [Java](src/main/java/com/github/pareronia/codechef/evengame/Main.java) |
 | EXTRICHK | [Triangle Everywhere](https://www.codechef.com/CCSTART2/problems/EXTRICHK) | [Java](src/main/java/com/github/pareronia/codechef/extrichk/TriangleEverywhere.java) |
+| FBC | [Fill the Bucket](https://www.codechef.com/START29D/problems/FBC) | [Java](src/main/java/com/github/pareronia/codechef/fbc/FillTheBucket.java) |
 | FINDMELI | [Find Me](https://www.codechef.com/CCSTART2/problems/FINDMELI) | [Java](src/main/java/com/github/pareronia/codechef/findmeli/FindMe.java) |
 | FLOW001 | [](https://www.codechef.com/problems/FLOW001) | [Java](src/main/java/com/github/pareronia/codechef/flow001/Main.java) |
 | FLOW007 | [Reverse The Number](https://www.codechef.com/LRNDSA01/problems/FLOW007) | [Java](src/main/java/com/github/pareronia/codechef/flow007/ReverseTheNumber.java) |
@@ -68,6 +70,7 @@ https://www.codechef.com/
 | SHUFFLIN | [Shuffling Parities](https://www.codechef.com/SEPT21C/problems/SHUFFLIN) | [Java](src/main/java/com/github/pareronia/codechef/shufflin/ShufflingParities.java) |
 | SORTROWS | [Sorting Rows of Numbers](https://www.codechef.com/IARCSJUD/problems/SORTROWS) | [Java](src/main/java/com/github/pareronia/codechef/sortrows/SortingRowsOfNumbers.java) |
 | SQALPAT | [Alternative Square Pattern](https://www.codechef.com/CCSTART2/problems/SQALPAT) | [Java](src/main/java/com/github/pareronia/codechef/sqalpat/AlternativeSquarePattern.java) |
+| STRP | [String protocol](https://www.codechef.com/START29D/problems/STRP) | [Java](src/main/java/com/github/pareronia/codechef/strp/StringProtocol.java) |
 | SUMEVOD | [Sum Is Everywhere](https://www.codechef.com/CCSTART2/problems/SUMEVOD) | [Java](src/main/java/com/github/pareronia/codechef/sumevod/SumIsEverywhere.java) |
 | TEST | [Life, the Universe, and Everything](https://www.codechef.com/LRNDSA01/problems/TEST) | [Java](src/main/java/com/github/pareronia/codechef/test/LifeTheUniverseAndEverything.java) |
 | THREDICE | [Three Dices](https://www.codechef.com/START6C/problems/THREDICE) | [Java](src/main/java/com/github/pareronia/codechef/thredice/Main.java) |
@@ -76,6 +79,7 @@ https://www.codechef.com/
 | TOTCRT | [Total Correct Submissions](https://www.codechef.com/problems/TOTCRT) | [Java](src/main/java/com/github/pareronia/codechef/totcrt/Main.java) |
 | TRAVELPS | [Travel Pass](https://www.codechef.com/SEPT21C/problems/TRAVELPS) | [Java](src/main/java/com/github/pareronia/codechef/travelps/TravelPass.java) |
 | TRIVALCH | [Valid Triangle Or Not](https://www.codechef.com/CCSTART2/problems/TRIVALCH) | [Java](src/main/java/com/github/pareronia/codechef/trivalch/ValidTriangleOrNot.java) |
+| TYRE | [Tyre problem](https://www.codechef.com/START29D/problems/TYRE) | [Java](src/main/java/com/github/pareronia/codechef/tyre/TyreProblem.java) |
 | VALTRI | [Raju and His Trip](https://www.codechef.com/CCSTART2/problems/VALTRI) | [Java](src/main/java/com/github/pareronia/codechef/valtri/RajuAndHisTrip.java) |
 | VOTERSDI | [Discrepancies in the Voters List](https://www.codechef.com/IARCSJUD/problems/VOTERSDI) | [Java](src/main/java/com/github/pareronia/codechef/votersdi/DiscrepanciesInTheVotersList.java) |
 | WORDLIST | [Word List](https://www.codechef.com/IARCSJUD/problems/WORDLIST) | [Java](src/main/java/com/github/pareronia/codechef/wordlist/WordList.java) |
