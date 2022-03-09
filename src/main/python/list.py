@@ -61,9 +61,9 @@ def main():
         for file in files:
             if not file.endswith(".java"):
                 continue
-            problem_file = path + "/" + file.replace('\\', '/')
+            problem_file = os.path.join(path, file)
             info = get_problem_info(problem_file)
-            info['file'] = problem_file
+            info['file'] = path + "/" + file.replace(os.pathsep, '/')
             infos.append(info)
     table = create_table(infos)
     add_table(table, sys.argv[1])
