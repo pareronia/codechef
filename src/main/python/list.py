@@ -63,7 +63,7 @@ def main():
                 continue
             problem_file = os.path.join(path, file)
             info = get_problem_info(problem_file)
-            info['file'] = path + "/" + file.replace(os.pathsep, '/')
+            info['file'] = problem_file.replace('\\', '/')
             infos.append(info)
     table = create_table(infos)
     add_table(table, sys.argv[1])
