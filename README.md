@@ -30,6 +30,7 @@ https://www.codechef.com/
 | CRICRANK | [Cricket Ranking](https://www.codechef.com/START6C/problems/CRICRANK) | [Java](src/main/java/com/github/pareronia/codechef/cricrank/Main.java) |
 | CROSBLK | [Crossing Blocks](https://www.codechef.com/problems/CROSBLK) | [Java](src/main/java/com/github/pareronia/codechef/crosblk/CrossingBlocks.java) |
 | DIFACTRS | [Factors Finding](https://www.codechef.com/CCSTART2/problems/DIFACTRS) | [Java](src/main/java/com/github/pareronia/codechef/difactrs/FactorsFinding.java) |
+| DISCUS | [Discus Throw](https://www.codechef.com/MARCH221C/problems/DISCUS) | [Java](src/main/java/com/github/pareronia/codechef/discus/DiscusThrow.java) |
 | DRAWFIX | [Draw Fixing](https://www.codechef.com/IARCSJUD/problems/DRAWFIX) | [Java](src/main/java/com/github/pareronia/codechef/drawfix/DrawFixing.java) |
 | ENDCORR | [End of Corruption](https://www.codechef.com/IARCSJUD/problems/ENDCORR) | [Java](src/main/java/com/github/pareronia/codechef/endcorr/EndOfCorruption.java) |
 | ETUP | [Even tuples](https://www.codechef.com/START6C/problems/ETUP) | [Java](src/main/java/com/github/pareronia/codechef/etup/Main.java) |
