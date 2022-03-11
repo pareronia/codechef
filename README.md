@@ -22,7 +22,7 @@ https://www.codechef.com/
 | CHFCLASS | [Akash and Missing Class](https://www.codechef.com/MARCH221C/problems/CHFCLASS) | [Java](src/main/java/com/github/pareronia/codechef/chfclass/AkashAndMissingClass.java) |
 | CHFDBT | [Akash and Function](https://www.codechef.com/MARCH221C/problems/CHFDBT) | [Java](src/main/java/com/github/pareronia/codechef/chfdbt/AkashAndFunction.java) |
 | CHFGCD | [Chef and GCD](https://www.codechef.com/problems/CHFGCD) | [Java](src/main/java/com/github/pareronia/codechef/chfgcd/ChefAndGCD.java) |
-| CHFPARTY | [](https://www.codechef.com/problems/CHFPARTY) | [Java](src/main/java/com/github/pareronia/codechef/chfparty/Main.java) |
+| CHFPARTY | [Chef and Party](https://www.codechef.com/problems/CHFPARTY) | [Java](src/main/java/com/github/pareronia/codechef/chfparty/ChefAndParty.java) |
 | CHFPLN | [Chef In Infinite Plane](https://www.codechef.com/problems/CHFPLN) | [Java](src/main/java/com/github/pareronia/codechef/chfpln/ChefInInfinitePlain.java) |
 | CHFSPL | [Chef and Spells](https://www.codechef.com/LTIME98C/problems/CHFSPL) | [Java](src/main/java/com/github/pareronia/codechef/chfspl/ChefAndSpells.java) |
 | CHSFORMT | [Chess Format](https://www.codechef.com/problems/CHSFORMT) | [Java](src/main/java/com/github/pareronia/codechef/chsformt/Main.java) |
@@ -33,19 +33,19 @@ https://www.codechef.com/
 | DRAWFIX | [Draw Fixing](https://www.codechef.com/IARCSJUD/problems/DRAWFIX) | [Java](src/main/java/com/github/pareronia/codechef/drawfix/DrawFixing.java) |
 | ENDCORR | [End of Corruption](https://www.codechef.com/IARCSJUD/problems/ENDCORR) | [Java](src/main/java/com/github/pareronia/codechef/endcorr/EndOfCorruption.java) |
 | ETUP | [Even tuples](https://www.codechef.com/START6C/problems/ETUP) | [Java](src/main/java/com/github/pareronia/codechef/etup/Main.java) |
-| EVENGAME | [](https://www.codechef.com/problems/EVENGAME) | [Java](src/main/java/com/github/pareronia/codechef/evengame/Main.java) |
+| EVENGAME | [Even Sum](https://www.codechef.com/problems/EVENGAME) | [Java](src/main/java/com/github/pareronia/codechef/evengame/EvenSum.java) |
 | EXTRICHK | [Triangle Everywhere](https://www.codechef.com/CCSTART2/problems/EXTRICHK) | [Java](src/main/java/com/github/pareronia/codechef/extrichk/TriangleEverywhere.java) |
 | FBC | [Fill the Bucket](https://www.codechef.com/START29D/problems/FBC) | [Java](src/main/java/com/github/pareronia/codechef/fbc/FillTheBucket.java) |
 | FINDMELI | [Find Me](https://www.codechef.com/CCSTART2/problems/FINDMELI) | [Java](src/main/java/com/github/pareronia/codechef/findmeli/FindMe.java) |
-| FLOW001 | [](https://www.codechef.com/problems/FLOW001) | [Java](src/main/java/com/github/pareronia/codechef/flow001/Main.java) |
+| FLOW001 | [Add Two Numbers](https://www.codechef.com/problems/FLOW001) | [Java](src/main/java/com/github/pareronia/codechef/flow001/AddTwoNumbers.java) |
 | FLOW007 | [Reverse The Number](https://www.codechef.com/LRNDSA01/problems/FLOW007) | [Java](src/main/java/com/github/pareronia/codechef/flow007/ReverseTheNumber.java) |
 | FODCHAIN | [Food Chain](https://www.codechef.com/problems/FODCHAIN) | [Java](src/main/java/com/github/pareronia/codechef/fodchain/Main.java) |
 | GENIUS | [Exact Marks](https://www.codechef.com/MARCH221C/problems/GENIUS) | [Java](src/main/java/com/github/pareronia/codechef/genius/ExactMarks.java) |
 | HARDBET | [Hardest Problem Bet](https://www.codechef.com/problems/HARDBET) | [Java](src/main/java/com/github/pareronia/codechef/hardbet/HardestProblemBet.java) |
-| HDIVISR | [](https://www.codechef.com/problems/HDIVISR) | [Java](src/main/java/com/github/pareronia/codechef/hdivisr/Main.java) |
-| HS08TEST | [](https://www.codechef.com/problems/HS08TEST) | [Java](src/main/java/com/github/pareronia/codechef/hs08test/Main.java) |
+| HDIVISR | [Highest Divisor](https://www.codechef.com/problems/HDIVISR) | [Java](src/main/java/com/github/pareronia/codechef/hdivisr/HighestDivisor.java) |
+| HS08TEST | [ATM](https://www.codechef.com/problems/HS08TEST) | [Java](src/main/java/com/github/pareronia/codechef/hs08test/ATM.java) |
 | IAREVERS | [Reverse](https://www.codechef.com/IARCSJUD/problems/IAREVERS) | [Java](src/main/java/com/github/pareronia/codechef/iarevers/Reverse.java) |
-| INTEST | [](https://www.codechef.com/problems/INTEST) | [Java](src/main/java/com/github/pareronia/codechef/intest/Main.java) |
+| INTEST | [Enormous Input Test](https://www.codechef.com/problems/INTEST) | [Java](src/main/java/com/github/pareronia/codechef/intest/EnormousInputTest.java) |
 | ISBOTH | [Is Both Or Not](https://www.codechef.com/CCSTART2/problems/ISBOTH) | [Java](src/main/java/com/github/pareronia/codechef/isboth/IsBothOrNot.java) |
 | JAG | [Just a Graph](https://www.codechef.com/problems/JAG) | [Java](src/main/java/com/github/pareronia/codechef/jag/JustAGraph.java) |
 | JAVELIN | [Javelin Qualification](https://www.codechef.com/problems/JAVELIN) | [Java](src/main/java/com/github/pareronia/codechef/javelin/JavelinQualification.java) |
@@ -56,7 +56,7 @@ https://www.codechef.com/
 | LAPIN | [Lapindromes](https://www.codechef.com/LRNDSA01/problems/LAPIN) | [Java](src/main/java/com/github/pareronia/codechef/lapin/Lapindromes.java) |
 | LEADGAME | [Lead Game](https://www.codechef.com/IARCSJUD/problems/LEADGAME) | [Java](src/main/java/com/github/pareronia/codechef/leadgame/LeadGame.java) |
 | LONGPALI | [Longest Palindrome](https://www.codechef.com/IARCSJUD/problems/LONGPALI) | [Java](src/main/java/com/github/pareronia/codechef/longpali/LongestPalindrome.java) |
-| LUCKFOUR | [](https://www.codechef.com/problems/LUCKFOUR) | [Java](src/main/java/com/github/pareronia/codechef/luckfour/Main.java) |
+| LUCKFOUR | [Lucky Four](https://www.codechef.com/problems/LUCKFOUR) | [Java](src/main/java/com/github/pareronia/codechef/luckfour/LuckyFour.java) |
 | MEXSPLIT | [Equal Mex Splitting](https://www.codechef.com/problems/MEXSPLIT) | [Java](src/main/java/com/github/pareronia/codechef/mexsplit/EqualMexSplitting.java) |
 | NANDXOR | [Dragonado And XOR](https://www.codechef.com/COOK139C/problems/NANDXOR) | [Java](src/main/java/com/github/pareronia/codechef/nandxor/DragonadoAndXOR.java) |
 | OLYRANK | [Olympics Ranking](https://www.codechef.com/problems/OLYRANK) | [Java](src/main/java/com/github/pareronia/codechef/olyrank/OlympicsRanking.java) |
