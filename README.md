@@ -10,6 +10,7 @@ https://www.codechef.com/
 | AIRLINE | [Airline Restrictions](https://www.codechef.com/SEPT21C/problems/AIRLINE) | [Java](src/main/java/com/github/pareronia/codechef/airline/AirlineRestrictions.java) |
 | ALTERNATEDIV | [Alternating Divisibility](https://www.codechef.com/COOK139C/problems/ALTERNATEDIV) | [Java](src/main/java/com/github/pareronia/codechef/alternatediv/AlternatingDivisibility.java) |
 | ANGTRICH | [Triangle With Angle](https://www.codechef.com/CCSTART2/problems/ANGTRICH) | [Java](src/main/java/com/github/pareronia/codechef/angtrich/TriangleWithAngle.java) |
+| BATH | [Bath in Winters](https://www.codechef.com/MARCH221C/problems/BATH) | [Java](src/main/java/com/github/pareronia/codechef/bath/BathInWinters.java) |
 | BLACKCEL | [Black cells in a chessboard](https://www.codechef.com/problems/BLACKCEL) | [Java](src/main/java/com/github/pareronia/codechef/blackcel/BlackCellsInAChessboard.java) |
 | BOMBTHEBASE | [Bomb the base](https://www.codechef.com/START29D/problems/BOMBTHEBASE) | [Java](src/main/java/com/github/pareronia/codechef/bombthebase/BombTheBase.java) |
 | BOOKLIST | [List of Books](https://www.codechef.com/IARCSJUD/problems/BOOKLIST) | [Java](src/main/java/com/github/pareronia/codechef/booklist/ListOfBooks.java) |
