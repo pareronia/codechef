@@ -19,6 +19,8 @@ https://www.codechef.com/
 | CARVANS | [Carvans](https://www.codechef.com/LRNDSA01/problems/CARVANS) | [Java](src/main/java/com/github/pareronia/codechef/carvans/Carvans.java) |
 | CDIGLNUM | [Chef and Digits of Large Numbers](https://www.codechef.com/problems/CDIGLNUM) | [Java](src/main/java/com/github/pareronia/codechef/cdiglnum/ChefAndDigitsOfLargeNumbers.java) |
 | CEILSUM | [Ceiling Sum](https://www.codechef.com/problems/CEILSUM) | [Java](src/main/java/com/github/pareronia/codechef/ceilsum/Main.java) |
+| CHFCLASS | [Akash and Missing Class](https://www.codechef.com/MARCH221C/problems/CHFCLASS) | [Java](src/main/java/com/github/pareronia/codechef/chfclass/AkashAndMissingClass.java) |
+| CHFDBT | [Akash and Function](https://www.codechef.com/MARCH221C/problems/CHFDBT) | [Java](src/main/java/com/github/pareronia/codechef/chfdbt/AkashAndFunction.java) |
 | CHFGCD | [Chef and GCD](https://www.codechef.com/problems/CHFGCD) | [Java](src/main/java/com/github/pareronia/codechef/chfgcd/ChefAndGCD.java) |
 | CHFPARTY | [](https://www.codechef.com/problems/CHFPARTY) | [Java](src/main/java/com/github/pareronia/codechef/chfparty/Main.java) |
 | CHFPLN | [Chef In Infinite Plane](https://www.codechef.com/problems/CHFPLN) | [Java](src/main/java/com/github/pareronia/codechef/chfpln/ChefInInfinitePlain.java) |
@@ -38,6 +40,7 @@ https://www.codechef.com/
 | FLOW001 | [](https://www.codechef.com/problems/FLOW001) | [Java](src/main/java/com/github/pareronia/codechef/flow001/Main.java) |
 | FLOW007 | [Reverse The Number](https://www.codechef.com/LRNDSA01/problems/FLOW007) | [Java](src/main/java/com/github/pareronia/codechef/flow007/ReverseTheNumber.java) |
 | FODCHAIN | [Food Chain](https://www.codechef.com/problems/FODCHAIN) | [Java](src/main/java/com/github/pareronia/codechef/fodchain/Main.java) |
+| GENIUS | [Exact Marks](https://www.codechef.com/MARCH221C/problems/GENIUS) | [Java](src/main/java/com/github/pareronia/codechef/genius/ExactMarks.java) |
 | HARDBET | [Hardest Problem Bet](https://www.codechef.com/problems/HARDBET) | [Java](src/main/java/com/github/pareronia/codechef/hardbet/HardestProblemBet.java) |
 | HDIVISR | [](https://www.codechef.com/problems/HDIVISR) | [Java](src/main/java/com/github/pareronia/codechef/hdivisr/Main.java) |
 | HS08TEST | [](https://www.codechef.com/problems/HS08TEST) | [Java](src/main/java/com/github/pareronia/codechef/hs08test/Main.java) |
@@ -71,6 +74,7 @@ https://www.codechef.com/
 | SORTROWS | [Sorting Rows of Numbers](https://www.codechef.com/IARCSJUD/problems/SORTROWS) | [Java](src/main/java/com/github/pareronia/codechef/sortrows/SortingRowsOfNumbers.java) |
 | SQALPAT | [Alternative Square Pattern](https://www.codechef.com/CCSTART2/problems/SQALPAT) | [Java](src/main/java/com/github/pareronia/codechef/sqalpat/AlternativeSquarePattern.java) |
 | STRP | [String protocol](https://www.codechef.com/START29D/problems/STRP) | [Java](src/main/java/com/github/pareronia/codechef/strp/StringProtocol.java) |
+| SUBSTRING | [Substring of a Substring](https://www.codechef.com/MARCH221C/problems/SUBSTRING) | [Java](src/main/java/com/github/pareronia/codechef/substring/SubstringOfASubstring.java) |
 | SUMEVOD | [Sum Is Everywhere](https://www.codechef.com/CCSTART2/problems/SUMEVOD) | [Java](src/main/java/com/github/pareronia/codechef/sumevod/SumIsEverywhere.java) |
 | TEST | [Life, the Universe, and Everything](https://www.codechef.com/LRNDSA01/problems/TEST) | [Java](src/main/java/com/github/pareronia/codechef/test/LifeTheUniverseAndEverything.java) |
 | THREDICE | [Three Dices](https://www.codechef.com/START6C/problems/THREDICE) | [Java](src/main/java/com/github/pareronia/codechef/thredice/Main.java) |
@@ -82,6 +86,7 @@ https://www.codechef.com/
 | TYRE | [Tyre problem](https://www.codechef.com/START29D/problems/TYRE) | [Java](src/main/java/com/github/pareronia/codechef/tyre/TyreProblem.java) |
 | VALTRI | [Raju and His Trip](https://www.codechef.com/CCSTART2/problems/VALTRI) | [Java](src/main/java/com/github/pareronia/codechef/valtri/RajuAndHisTrip.java) |
 | VOTERSDI | [Discrepancies in the Voters List](https://www.codechef.com/IARCSJUD/problems/VOTERSDI) | [Java](src/main/java/com/github/pareronia/codechef/votersdi/DiscrepanciesInTheVotersList.java) |
+| WORDLE | [Wordle](https://www.codechef.com/MARCH221C/problems/WORDLE) | [Java](src/main/java/com/github/pareronia/codechef/wordle/Wordle.java) |
 | WORDLIST | [Word List](https://www.codechef.com/IARCSJUD/problems/WORDLIST) | [Java](src/main/java/com/github/pareronia/codechef/wordlist/WordList.java) |
 | XLSQUARE | [Large Square](https://www.codechef.com/problems/XLSQUARE) | [Java](src/main/java/com/github/pareronia/codechef/xlsquare/LargeSquare.java) |
 | XORORED | [XOR-ORED](https://www.codechef.com/problems/XORORED) | [Java](src/main/java/com/github/pareronia/codechef/xorored/XorOred.java) |
