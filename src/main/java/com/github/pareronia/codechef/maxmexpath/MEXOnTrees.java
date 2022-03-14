@@ -14,10 +14,11 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.PriorityQueue;
+import java.util.SortedSet;
 import java.util.StringTokenizer;
+import java.util.TreeSet;
+import java.util.stream.IntStream;
 
 /**
  * MEX on Trees
@@ -34,39 +35,21 @@ class MEXOnTrees {
         this.out = out;
     }
     
+    @SuppressWarnings("unchecked")
     private void handleTestCase(final Integer i, final FastScanner sc) {
         final int n = sc.nextInt();
         final int[] a = sc.nextIntArray(n);
-        final int[][] e = new int[n - 1][3];
-        for (int j = 0; j < n - 1; j++) {
-            e[j] = new int[] { sc.nextInt() - 1, sc.nextInt() - 1, 1 };
-        }
-        final int source = 0;
-        final Graph.Adjacency[] adj = Graph.toAdjacencyList(n, e);
-        final int[] path = Dijkstra.get(adj, source);
-        int ans = 0;
-        outer:
+        final List<Integer>[] adj = new ArrayList[n];
         for (int j = 0; j < n; j++) {
-            final boolean[] b = new boolean[path.length];
-            int parent = j;
-            while (parent != source) {
-                final int v = a[parent];
-                if (v < b.length) {
-                    b[v] = true;
-                }
-                parent = path[parent];
-            }
-            if (a[source] < b.length) {
-                b[a[source]] = true;
-            }
-            for (int k = 0; k < b.length; k++) {
-                if (!b[k]) {
-                    ans = Math.max(ans, k);
-                    continue outer;
-                }
-            }
-            ans = Math.max(ans, b.length);
+            adj[j] = new ArrayList<>();
         }
+        for (int j = 0; j < n - 1; j++) {
+            final int x = sc.nextInt() - 1;
+            final int y = sc.nextInt() - 1;
+            adj[x].add(y);
+            adj[y].add(x);
+        }
+        final int ans = new DFS(a, adj).dfs(0, -1);
         this.out.println(ans);
     }
     
@@ -174,52 +157,39 @@ class MEXOnTrees {
         }
     }
     
-    private static class Graph {
+    private static class DFS {
+        private final List<Integer>[] adj;
+        private final int[] a;
+        private final int[] visited;
+        private final SortedSet<Integer> missing;
         
-        private static Adjacency[] toAdjacencyList(final int n, final int[][] e) {
-            assert e[0].length == 3;
-            final Adjacency[] adj = new Adjacency[n];
-            for (int j = 0; j < n; j++) {
-                adj[j] = new Adjacency();
-            }
-            for (int j = 0; j < e.length; j++) {
-                final int v1 = e[j][0];
-                final int v2 = e[j][1];
-                adj[v1].add(new int[] { v2, e[j][2] });
-                adj[v2].add(new int[] { v1, e[j][2] });
-            }
-            return adj;
+        public DFS(final int[] a, final List<Integer>[] adj) {
+            this.a = a;
+            this.adj = adj;
+            this.visited = new int[a.length];
+            this.missing = new TreeSet<>();
+            IntStream.rangeClosed(0, a.length).forEach(this.missing::add);
         }
         
-        public static class Adjacency extends ArrayList<int[]> {
-
-            private static final long serialVersionUID = 1L;
-        }
-    }
-
-    private static class Dijkstra {
-        
-        public static int[] get(final Graph.Adjacency[] adj, final int source) {
-            final int n = adj.length;
-            final int path[] = new int[n];
-            final long dist[] = new long[n];
-            Arrays.fill(dist, Long.MAX_VALUE);
-            dist[source] = 0;
-            final PriorityQueue<Integer> queue
-                = new PriorityQueue<>((e1, e2) -> Long.compare(dist[e1], dist[e2]));
-            queue.add(source);
-            while (!queue.isEmpty()) {
-                final int u = queue.poll();
-                for (final int[] v : adj[u]) {
-                    final long alt = dist[u] + v[1];
-                    if (alt < dist[v[0]]) {
-                        dist[v[0]] = alt;
-                        path[v[0]] = u;
-                        queue.add(v[0]);
-                    }
+        public int dfs(final int u, final int parent) {
+            int ans = -1;
+            final int val = a[u];
+            visited[val]++;
+            if (visited[val] > 0) {
+                missing.remove(Integer.valueOf(val));
+            }
+            for (final int v : adj[u]) {
+                if (v == parent) {
+                    continue;
                 }
+                ans = Math.max(ans, dfs(v, u));
             }
-            return path;
+            ans = Math.max(ans, missing.first());
+            visited[val]--;
+            if (visited[val] == 0) {
+                missing.add(val);
+            }
+            return ans;
         }
     }
 }
