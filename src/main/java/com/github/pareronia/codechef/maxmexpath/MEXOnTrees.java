@@ -15,11 +15,8 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Iterator;
 import java.util.List;
 import java.util.PriorityQueue;
-import java.util.Set;
 import java.util.StringTokenizer;
 
 /**
@@ -44,20 +41,23 @@ class MEXOnTrees {
         for (int j = 0; j < n - 1; j++) {
             e[j] = new int[] { sc.nextInt() - 1, sc.nextInt() - 1, 1 };
         }
+        final int source = 0;
         final Graph.Adjacency[] adj = Graph.toAdjacencyList(n, e);
-        final Dijkstra.Result result = Dijkstra.get(adj, 0);
+        final int[] path = Dijkstra.get(adj, source);
         int ans = 0;
         outer:
         for (int j = 0; j < n; j++) {
-            final Set<Integer> path = result.getPathSet(j);
-            final boolean[] b = new boolean[path.size()];
-            final Iterator<Integer> it = path.iterator();
-            while (it.hasNext()) {
-                final int v = a[it.next()];
-                if (v >= path.size()) {
-                    continue;
+            final boolean[] b = new boolean[path.length];
+            int parent = j;
+            while (parent != source) {
+                final int v = a[parent];
+                if (v < b.length) {
+                    b[v] = true;
                 }
-                b[v] = true;
+                parent = path[parent];
+            }
+            if (a[source] < b.length) {
+                b[a[source]] = true;
             }
             for (int k = 0; k < b.length; k++) {
                 if (!b[k]) {
@@ -178,20 +178,15 @@ class MEXOnTrees {
         
         private static Adjacency[] toAdjacencyList(final int n, final int[][] e) {
             assert e[0].length == 3;
-            final Adjacency[] a = newAdjacencyList(n);
-            for (int j = 0; j < e.length; j++) {
-                final int v1 = e[j][0];
-                final int v2 = e[j][1];
-                a[v1].add(new int[] { v2, e[j][2] });
-                a[v2].add(new int[] { v1, e[j][2] });
-            }
-            return a;
-        }
-        
-        public static Adjacency[] newAdjacencyList(final int n) {
             final Adjacency[] adj = new Adjacency[n];
             for (int j = 0; j < n; j++) {
                 adj[j] = new Adjacency();
+            }
+            for (int j = 0; j < e.length; j++) {
+                final int v1 = e[j][0];
+                final int v2 = e[j][1];
+                adj[v1].add(new int[] { v2, e[j][2] });
+                adj[v2].add(new int[] { v1, e[j][2] });
             }
             return adj;
         }
@@ -204,7 +199,7 @@ class MEXOnTrees {
 
     private static class Dijkstra {
         
-        public static Result get(final Graph.Adjacency[] adj, final int source) {
+        public static int[] get(final Graph.Adjacency[] adj, final int source) {
             final int n = adj.length;
             final int path[] = new int[n];
             final long dist[] = new long[n];
@@ -224,32 +219,7 @@ class MEXOnTrees {
                     }
                 }
             }
-            return new Result(source, path);
-        }
-        
-        public static class Result {
-            private final int source;
-            private final int[] path;
-            
-            private Result(final int source, final int[] path) {
-                this.source = source;
-                this.path = path;
-            }
-            
-            public Set<Integer> getPathSet(final int v) {
-                final Set<Integer> p = new HashSet<>();
-                int parent = v;
-                if (v != this.source) {
-                    while (parent != this.source) {
-                        p.add(parent);
-                        parent = this.path[parent];
-                    }
-                    p.add(this.source);
-                } else {
-                    p.add(this.source);
-                }
-                return p;
-            }
+            return path;
         }
     }
 }
