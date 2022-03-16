@@ -20,6 +20,7 @@ https://www.codechef.com/
 | CARVANS | [Carvans](https://www.codechef.com/LRNDSA01/problems/CARVANS) | [Java](src/main/java/com/github/pareronia/codechef/carvans/Carvans.java) |
 | CDIGLNUM | [Chef and Digits of Large Numbers](https://www.codechef.com/problems/CDIGLNUM) | [Java](src/main/java/com/github/pareronia/codechef/cdiglnum/ChefAndDigitsOfLargeNumbers.java) |
 | CEILSUM | [Ceiling Sum](https://www.codechef.com/problems/CEILSUM) | [Java](src/main/java/com/github/pareronia/codechef/ceilsum/Main.java) |
+| CHEFBOTTLE | [Chef and Water Bottles](https://www.codechef.com/START30C/problems/CHEFBOTTLE) | [Java](src/main/java/com/github/pareronia/codechef/chefbottle/ChefAndWaterBottles.java) |
 | CHFCLASS | [Akash and Missing Class](https://www.codechef.com/MARCH221C/problems/CHFCLASS) | [Java](src/main/java/com/github/pareronia/codechef/chfclass/AkashAndMissingClass.java) |
 | CHFDBT | [Akash and Function](https://www.codechef.com/MARCH221C/problems/CHFDBT) | [Java](src/main/java/com/github/pareronia/codechef/chfdbt/AkashAndFunction.java) |
 | CHFGCD | [Chef and GCD](https://www.codechef.com/problems/CHFGCD) | [Java](src/main/java/com/github/pareronia/codechef/chfgcd/ChefAndGCD.java) |
@@ -59,6 +60,7 @@ https://www.codechef.com/
 | LEADGAME | [Lead Game](https://www.codechef.com/IARCSJUD/problems/LEADGAME) | [Java](src/main/java/com/github/pareronia/codechef/leadgame/LeadGame.java) |
 | LONGPALI | [Longest Palindrome](https://www.codechef.com/IARCSJUD/problems/LONGPALI) | [Java](src/main/java/com/github/pareronia/codechef/longpali/LongestPalindrome.java) |
 | LUCKFOUR | [Lucky Four](https://www.codechef.com/problems/LUCKFOUR) | [Java](src/main/java/com/github/pareronia/codechef/luckfour/LuckyFour.java) |
+| MAXMEXPATH | [MEX on Trees](https://www.codechef.com/MARCH221C/problems/MAXMEXPATH) | [Java](src/main/java/com/github/pareronia/codechef/maxmexpath/MEXOnTrees.java) |
 | MEXSPLIT | [Equal Mex Splitting](https://www.codechef.com/problems/MEXSPLIT) | [Java](src/main/java/com/github/pareronia/codechef/mexsplit/EqualMexSplitting.java) |
 | NANDXOR | [Dragonado And XOR](https://www.codechef.com/COOK139C/problems/NANDXOR) | [Java](src/main/java/com/github/pareronia/codechef/nandxor/DragonadoAndXOR.java) |
 | OLYRANK | [Olympics Ranking](https://www.codechef.com/problems/OLYRANK) | [Java](src/main/java/com/github/pareronia/codechef/olyrank/OlympicsRanking.java) |
@@ -77,6 +79,7 @@ https://www.codechef.com/
 | SQALPAT | [Alternative Square Pattern](https://www.codechef.com/CCSTART2/problems/SQALPAT) | [Java](src/main/java/com/github/pareronia/codechef/sqalpat/AlternativeSquarePattern.java) |
 | STRP | [String protocol](https://www.codechef.com/START29D/problems/STRP) | [Java](src/main/java/com/github/pareronia/codechef/strp/StringProtocol.java) |
 | SUBSTRING | [Substring of a Substring](https://www.codechef.com/MARCH221C/problems/SUBSTRING) | [Java](src/main/java/com/github/pareronia/codechef/substring/SubstringOfASubstring.java) |
+| SUB_XOR | [Subarray XOR](https://www.codechef.com/MARCH221C/problems/SUB_XOR) | [Java](src/main/java/com/github/pareronia/codechef/sub_xor/SubarrayXOR.java) |
 | SUMEVOD | [Sum Is Everywhere](https://www.codechef.com/CCSTART2/problems/SUMEVOD) | [Java](src/main/java/com/github/pareronia/codechef/sumevod/SumIsEverywhere.java) |
 | TEST | [Life, the Universe, and Everything](https://www.codechef.com/LRNDSA01/problems/TEST) | [Java](src/main/java/com/github/pareronia/codechef/test/LifeTheUniverseAndEverything.java) |
 | THREDICE | [Three Dices](https://www.codechef.com/START6C/problems/THREDICE) | [Java](src/main/java/com/github/pareronia/codechef/thredice/Main.java) |
