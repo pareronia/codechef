@@ -45,6 +45,7 @@ https://www.codechef.com/
 | FLOW007 | [Reverse The Number](https://www.codechef.com/LRNDSA01/problems/FLOW007) | [Java](src/main/java/com/github/pareronia/codechef/flow007/ReverseTheNumber.java) |
 | FODCHAIN | [Food Chain](https://www.codechef.com/problems/FODCHAIN) | [Java](src/main/java/com/github/pareronia/codechef/fodchain/Main.java) |
 | GENIUS | [Exact Marks](https://www.codechef.com/MARCH221C/problems/GENIUS) | [Java](src/main/java/com/github/pareronia/codechef/genius/ExactMarks.java) |
+| GFTSHP | [Gift Shop and Coupon](https://www.codechef.com/START30C/problems/GFTSHP) | [Java](src/main/java/com/github/pareronia/codechef/gftshp/GiftShopAndCoupon.java) |
 | HARDBET | [Hardest Problem Bet](https://www.codechef.com/problems/HARDBET) | [Java](src/main/java/com/github/pareronia/codechef/hardbet/HardestProblemBet.java) |
 | HDIVISR | [Highest Divisor](https://www.codechef.com/problems/HDIVISR) | [Java](src/main/java/com/github/pareronia/codechef/hdivisr/HighestDivisor.java) |
 | HS08TEST | [ATM](https://www.codechef.com/problems/HS08TEST) | [Java](src/main/java/com/github/pareronia/codechef/hs08test/ATM.java) |
