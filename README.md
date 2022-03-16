@@ -82,6 +82,7 @@ https://www.codechef.com/
 | SUBSTRING | [Substring of a Substring](https://www.codechef.com/MARCH221C/problems/SUBSTRING) | [Java](src/main/java/com/github/pareronia/codechef/substring/SubstringOfASubstring.java) |
 | SUB_XOR | [Subarray XOR](https://www.codechef.com/MARCH221C/problems/SUB_XOR) | [Java](src/main/java/com/github/pareronia/codechef/sub_xor/SubarrayXOR.java) |
 | SUMEVOD | [Sum Is Everywhere](https://www.codechef.com/CCSTART2/problems/SUMEVOD) | [Java](src/main/java/com/github/pareronia/codechef/sumevod/SumIsEverywhere.java) |
+| SWAPCW | [Swapping Chefs Way](https://www.codechef.com/START30C/problems/SWAPCW) | [Java](src/main/java/com/github/pareronia/codechef/swapcw/SwappingChefsWay.java) |
 | TEST | [Life, the Universe, and Everything](https://www.codechef.com/LRNDSA01/problems/TEST) | [Java](src/main/java/com/github/pareronia/codechef/test/LifeTheUniverseAndEverything.java) |
 | THREDICE | [Three Dices](https://www.codechef.com/START6C/problems/THREDICE) | [Java](src/main/java/com/github/pareronia/codechef/thredice/Main.java) |
 | THREEPTS | [Three Points](https://www.codechef.com/problems/THREEPTS) | [Java](src/main/java/com/github/pareronia/codechef/threepts/ThreePoints.java) |
