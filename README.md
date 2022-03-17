@@ -65,6 +65,7 @@ https://www.codechef.com/
 | LUCKFOUR | [Lucky Four](https://www.codechef.com/problems/LUCKFOUR) | [Java](src/main/java/com/github/pareronia/codechef/luckfour/LuckyFour.java) |
 | MAXMEXPATH | [MEX on Trees](https://www.codechef.com/MARCH221C/problems/MAXMEXPATH) | [Java](src/main/java/com/github/pareronia/codechef/maxmexpath/MEXOnTrees.java) |
 | MEXSPLIT | [Equal Mex Splitting](https://www.codechef.com/problems/MEXSPLIT) | [Java](src/main/java/com/github/pareronia/codechef/mexsplit/EqualMexSplitting.java) |
+| MINCOLOR | [Minimum Coloring](https://www.codechef.com/START30C/problems/MINCOLOR) | [Java](src/main/java/com/github/pareronia/codechef/mincolor/MinimumColoring.java) |
 | NANDXOR | [Dragonado And XOR](https://www.codechef.com/COOK139C/problems/NANDXOR) | [Java](src/main/java/com/github/pareronia/codechef/nandxor/DragonadoAndXOR.java) |
 | OLYRANK | [Olympics Ranking](https://www.codechef.com/problems/OLYRANK) | [Java](src/main/java/com/github/pareronia/codechef/olyrank/OlympicsRanking.java) |
 | PENALTY | [Penalty Shots](https://www.codechef.com/problems/PENALTY) | [Java](src/main/java/com/github/pareronia/codechef/penalty/PenaltyShots.java) |
