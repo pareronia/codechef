@@ -31,6 +31,8 @@ https://www.codechef.com/
 | CHFSPL | [Chef and Spells](https://www.codechef.com/LTIME98C/problems/CHFSPL) | [Java](src/main/java/com/github/pareronia/codechef/chfspl/ChefAndSpells.java) |
 | CHSFORMT | [Chess Format](https://www.codechef.com/problems/CHSFORMT) | [Java](src/main/java/com/github/pareronia/codechef/chsformt/Main.java) |
 | CORONA | [India Fights Corona](https://www.codechef.com/problems/CORONA) | [Java](src/main/java/com/github/pareronia/codechef/corona/IndiaFightsCorona.java) |
+| CREDCOINS | [CRED Coins](https://www.codechef.com/LTIME106C/problems/CREDCOINS) | [Java](src/main/java/com/github/pareronia/codechef/credcoins/CREDCoins.java) |
+| CREDSCORE | [Credit score](https://www.codechef.com/LTIME106C/problems/CREDSCORE) | [Java](src/main/java/com/github/pareronia/codechef/credscore/CreditScore.java) |
 | CRICRANK | [Cricket Ranking](https://www.codechef.com/START6C/problems/CRICRANK) | [Java](src/main/java/com/github/pareronia/codechef/cricrank/Main.java) |
 | CROSBLK | [Crossing Blocks](https://www.codechef.com/problems/CROSBLK) | [Java](src/main/java/com/github/pareronia/codechef/crosblk/CrossingBlocks.java) |
 | DIFACTRS | [Factors Finding](https://www.codechef.com/CCSTART2/problems/DIFACTRS) | [Java](src/main/java/com/github/pareronia/codechef/difactrs/FactorsFinding.java) |
@@ -65,6 +67,7 @@ https://www.codechef.com/
 | LUCKFOUR | [Lucky Four](https://www.codechef.com/problems/LUCKFOUR) | [Java](src/main/java/com/github/pareronia/codechef/luckfour/LuckyFour.java) |
 | MAXMEXPATH | [MEX on Trees](https://www.codechef.com/MARCH221C/problems/MAXMEXPATH) | [Java](src/main/java/com/github/pareronia/codechef/maxmexpath/MEXOnTrees.java) |
 | MEXSPLIT | [Equal Mex Splitting](https://www.codechef.com/problems/MEXSPLIT) | [Java](src/main/java/com/github/pareronia/codechef/mexsplit/EqualMexSplitting.java) |
+| MINCOINS | [Minimum number of coins](https://www.codechef.com/LTIME106C/problems/MINCOINS) | [Java](src/main/java/com/github/pareronia/codechef/mincoins/MinimumNumberOfCoins.java) |
 | MINCOLOR | [Minimum Coloring](https://www.codechef.com/START30C/problems/MINCOLOR) | [Java](src/main/java/com/github/pareronia/codechef/mincolor/MinimumColoring.java) |
 | NANDXOR | [Dragonado And XOR](https://www.codechef.com/COOK139C/problems/NANDXOR) | [Java](src/main/java/com/github/pareronia/codechef/nandxor/DragonadoAndXOR.java) |
 | OLYRANK | [Olympics Ranking](https://www.codechef.com/problems/OLYRANK) | [Java](src/main/java/com/github/pareronia/codechef/olyrank/OlympicsRanking.java) |
@@ -76,10 +79,12 @@ https://www.codechef.com/
 | REVMEE | [Reverse Me](https://www.codechef.com/CCSTART2/problems/REVMEE) | [Java](src/main/java/com/github/pareronia/codechef/revmee/ReverseMe.java) |
 | REVSTRPT | [Reverse Star Pattern](https://www.codechef.com/CCSTART2/problems/REVSTRPT) | [Java](src/main/java/com/github/pareronia/codechef/revstrpt/ReverseStarPattern.java) |
 | RNGEODD | [Range Odd](https://www.codechef.com/CCSTART2/problems/RNGEODD) | [Java](src/main/java/com/github/pareronia/codechef/rngeodd/RangeOdd.java) |
+| SALE2 | [Buy 2 Get 1 Free](https://www.codechef.com/LTIME106C/problems/SALE2) | [Java](src/main/java/com/github/pareronia/codechef/sale2/Buy2Get1Free.java) |
 | SECLAR | [Find Second Largest](https://www.codechef.com/CCSTART2/problems/SECLAR) | [Java](src/main/java/com/github/pareronia/codechef/seclar/FindSecondLargest.java) |
 | SHOEFIT | [Shoe Fit](https://www.codechef.com/problems/SHOEFIT) | [Java](src/main/java/com/github/pareronia/codechef/shoefit/ShoeFit.java) |
 | SHUFFLIN | [Shuffling Parities](https://www.codechef.com/SEPT21C/problems/SHUFFLIN) | [Java](src/main/java/com/github/pareronia/codechef/shufflin/ShufflingParities.java) |
 | SORTROWS | [Sorting Rows of Numbers](https://www.codechef.com/IARCSJUD/problems/SORTROWS) | [Java](src/main/java/com/github/pareronia/codechef/sortrows/SortingRowsOfNumbers.java) |
+| SPLITPAIR | [Sad Splits](https://www.codechef.com/LTIME106C/problems/SPLITPAIR) | [Java](src/main/java/com/github/pareronia/codechef/splitpair/SadSplits.java) |
 | SQALPAT | [Alternative Square Pattern](https://www.codechef.com/CCSTART2/problems/SQALPAT) | [Java](src/main/java/com/github/pareronia/codechef/sqalpat/AlternativeSquarePattern.java) |
 | STRP | [String protocol](https://www.codechef.com/START29D/problems/STRP) | [Java](src/main/java/com/github/pareronia/codechef/strp/StringProtocol.java) |
 | SUBSTRING | [Substring of a Substring](https://www.codechef.com/MARCH221C/problems/SUBSTRING) | [Java](src/main/java/com/github/pareronia/codechef/substring/SubstringOfASubstring.java) |
