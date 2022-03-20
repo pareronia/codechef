@@ -10,6 +10,7 @@ https://www.codechef.com/
 | AIRLINE | [Airline Restrictions](https://www.codechef.com/SEPT21C/problems/AIRLINE) | [Java](src/main/java/com/github/pareronia/codechef/airline/AirlineRestrictions.java) |
 | ALTERNATEDIV | [Alternating Divisibility](https://www.codechef.com/COOK139C/problems/ALTERNATEDIV) | [Java](src/main/java/com/github/pareronia/codechef/alternatediv/AlternatingDivisibility.java) |
 | ANGTRICH | [Triangle With Angle](https://www.codechef.com/CCSTART2/problems/ANGTRICH) | [Java](src/main/java/com/github/pareronia/codechef/angtrich/TriangleWithAngle.java) |
+| ATTNDNCE | [Check Attendance](https://www.codechef.com/CDIV2022/problems/ATTNDNCE) | [Java](src/main/java/com/github/pareronia/codechef/attndnce/CheckAttendance.java) |
 | BALREV | [Balanced Reversals](https://www.codechef.com/START30C/problems/BALREV) | [Java](src/main/java/com/github/pareronia/codechef/balrev/BalancedReversals.java) |
 | BATH | [Bath in Winters](https://www.codechef.com/MARCH221C/problems/BATH) | [Java](src/main/java/com/github/pareronia/codechef/bath/BathInWinters.java) |
 | BLACKCEL | [Black cells in a chessboard](https://www.codechef.com/problems/BLACKCEL) | [Java](src/main/java/com/github/pareronia/codechef/blackcel/BlackCellsInAChessboard.java) |
@@ -69,6 +70,7 @@ https://www.codechef.com/
 | MEXSPLIT | [Equal Mex Splitting](https://www.codechef.com/problems/MEXSPLIT) | [Java](src/main/java/com/github/pareronia/codechef/mexsplit/EqualMexSplitting.java) |
 | MINCOINS | [Minimum number of coins](https://www.codechef.com/LTIME106C/problems/MINCOINS) | [Java](src/main/java/com/github/pareronia/codechef/mincoins/MinimumNumberOfCoins.java) |
 | MINCOLOR | [Minimum Coloring](https://www.codechef.com/START30C/problems/MINCOLOR) | [Java](src/main/java/com/github/pareronia/codechef/mincolor/MinimumColoring.java) |
+| MODCARDS | [Min Mod Shuffle](https://www.codechef.com/CDIV2022/problems/MODCARDS) | [Java](src/main/java/com/github/pareronia/codechef/modcards/MinModShuffle.java) |
 | NANDXOR | [Dragonado And XOR](https://www.codechef.com/COOK139C/problems/NANDXOR) | [Java](src/main/java/com/github/pareronia/codechef/nandxor/DragonadoAndXOR.java) |
 | OLYRANK | [Olympics Ranking](https://www.codechef.com/problems/OLYRANK) | [Java](src/main/java/com/github/pareronia/codechef/olyrank/OlympicsRanking.java) |
 | PENALTY | [Penalty Shots](https://www.codechef.com/problems/PENALTY) | [Java](src/main/java/com/github/pareronia/codechef/penalty/PenaltyShots.java) |
@@ -104,6 +106,7 @@ https://www.codechef.com/
 | WORDLE | [Wordle](https://www.codechef.com/MARCH221C/problems/WORDLE) | [Java](src/main/java/com/github/pareronia/codechef/wordle/Wordle.java) |
 | WORDLIST | [Word List](https://www.codechef.com/IARCSJUD/problems/WORDLIST) | [Java](src/main/java/com/github/pareronia/codechef/wordlist/WordList.java) |
 | XLSQUARE | [Large Square](https://www.codechef.com/problems/XLSQUARE) | [Java](src/main/java/com/github/pareronia/codechef/xlsquare/LargeSquare.java) |
+| XORBIT | [XOR Bit](https://www.codechef.com/CDIV2022/problems/XORBIT) | [Java](src/main/java/com/github/pareronia/codechef/xorbit/XORBit.java) |
 | XORORED | [XOR-ORED](https://www.codechef.com/problems/XORORED) | [Java](src/main/java/com/github/pareronia/codechef/xorored/XorOred.java) |
 | ZCO14003 | [Smart Phone](https://www.codechef.com/LRNDSA01/problems/ZCO14003) | [Java](src/main/java/com/github/pareronia/codechef/zco14003/SmartPhone.java) |
 <!-- @END:Problems@ -->
