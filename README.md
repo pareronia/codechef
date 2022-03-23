@@ -50,6 +50,7 @@ https://www.codechef.com/
 | FODCHAIN | [Food Chain](https://www.codechef.com/problems/FODCHAIN) | [Java](src/main/java/com/github/pareronia/codechef/fodchain/Main.java) |
 | GENIUS | [Exact Marks](https://www.codechef.com/MARCH221C/problems/GENIUS) | [Java](src/main/java/com/github/pareronia/codechef/genius/ExactMarks.java) |
 | GFTSHP | [Gift Shop and Coupon](https://www.codechef.com/START30C/problems/GFTSHP) | [Java](src/main/java/com/github/pareronia/codechef/gftshp/GiftShopAndCoupon.java) |
+| GROUPASSGN | [Group Assignment](https://www.codechef.com/START31C/problems/GROUPASSGN) | [Java](src/main/java/com/github/pareronia/codechef/groupassgn/GroupAssignment.java) |
 | HARDBET | [Hardest Problem Bet](https://www.codechef.com/problems/HARDBET) | [Java](src/main/java/com/github/pareronia/codechef/hardbet/HardestProblemBet.java) |
 | HDIVISR | [Highest Divisor](https://www.codechef.com/problems/HDIVISR) | [Java](src/main/java/com/github/pareronia/codechef/hdivisr/HighestDivisor.java) |
 | HS08TEST | [ATM](https://www.codechef.com/problems/HS08TEST) | [Java](src/main/java/com/github/pareronia/codechef/hs08test/ATM.java) |
