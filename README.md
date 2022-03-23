@@ -9,6 +9,7 @@ https://www.codechef.com/
 | ADDNATRL | [Add Natural Numbers](https://www.codechef.com/CCSTART2/problems/ADDNATRL) | [Java](src/main/java/com/github/pareronia/codechef/addnatrl/AddNaturalNumbers.java) |
 | AIRLINE | [Airline Restrictions](https://www.codechef.com/SEPT21C/problems/AIRLINE) | [Java](src/main/java/com/github/pareronia/codechef/airline/AirlineRestrictions.java) |
 | ALTERNATEDIV | [Alternating Divisibility](https://www.codechef.com/COOK139C/problems/ALTERNATEDIV) | [Java](src/main/java/com/github/pareronia/codechef/alternatediv/AlternatingDivisibility.java) |
+| ALTSTR | [Alternating String](https://www.codechef.com/START31C/problems/ALTSTR) | [Java](src/main/java/com/github/pareronia/codechef/altstr/AlternatingString.java) |
 | ANGTRICH | [Triangle With Angle](https://www.codechef.com/CCSTART2/problems/ANGTRICH) | [Java](src/main/java/com/github/pareronia/codechef/angtrich/TriangleWithAngle.java) |
 | ATTNDNCE | [Check Attendance](https://www.codechef.com/CDIV2022/problems/ATTNDNCE) | [Java](src/main/java/com/github/pareronia/codechef/attndnce/CheckAttendance.java) |
 | BALREV | [Balanced Reversals](https://www.codechef.com/START30C/problems/BALREV) | [Java](src/main/java/com/github/pareronia/codechef/balrev/BalancedReversals.java) |
