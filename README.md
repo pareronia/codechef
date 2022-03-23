@@ -36,6 +36,7 @@ https://www.codechef.com/
 | CREDCOINS | [CRED Coins](https://www.codechef.com/LTIME106C/problems/CREDCOINS) | [Java](src/main/java/com/github/pareronia/codechef/credcoins/CREDCoins.java) |
 | CREDSCORE | [Credit score](https://www.codechef.com/LTIME106C/problems/CREDSCORE) | [Java](src/main/java/com/github/pareronia/codechef/credscore/CreditScore.java) |
 | CRICRANK | [Cricket Ranking](https://www.codechef.com/START6C/problems/CRICRANK) | [Java](src/main/java/com/github/pareronia/codechef/cricrank/Main.java) |
+| CRICUP | [Cup Finals](https://www.codechef.com/START31C/problems/CRICUP) | [Java](src/main/java/com/github/pareronia/codechef/cricup/CupFinals.java) |
 | CROSBLK | [Crossing Blocks](https://www.codechef.com/problems/CROSBLK) | [Java](src/main/java/com/github/pareronia/codechef/crosblk/CrossingBlocks.java) |
 | DIFACTRS | [Factors Finding](https://www.codechef.com/CCSTART2/problems/DIFACTRS) | [Java](src/main/java/com/github/pareronia/codechef/difactrs/FactorsFinding.java) |
 | DISCUS | [Discus Throw](https://www.codechef.com/MARCH221C/problems/DISCUS) | [Java](src/main/java/com/github/pareronia/codechef/discus/DiscusThrow.java) |
