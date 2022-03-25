@@ -25,6 +25,7 @@ https://www.codechef.com/
 | CEILSUM | [Ceiling Sum](https://www.codechef.com/problems/CEILSUM) | [Java](src/main/java/com/github/pareronia/codechef/ceilsum/Main.java) |
 | CHEFBOTTLE | [Chef and Water Bottles](https://www.codechef.com/START30C/problems/CHEFBOTTLE) | [Java](src/main/java/com/github/pareronia/codechef/chefbottle/ChefAndWaterBottles.java) |
 | CHEFCHOCO | [Chef and Chocolates](https://www.codechef.com/START30C/problems/CHEFCHOCO) | [Java](src/main/java/com/github/pareronia/codechef/chefchoco/ChefAndChocolates.java) |
+| CHEFRACES | [Chef and Races](https://www.codechef.com/MARCH222C/problems/CHEFRACES) | [Java](src/main/java/com/github/pareronia/codechef/chefraces/ChefAndRaces.java) |
 | CHFCLASS | [Akash and Missing Class](https://www.codechef.com/MARCH221C/problems/CHFCLASS) | [Java](src/main/java/com/github/pareronia/codechef/chfclass/AkashAndMissingClass.java) |
 | CHFDBT | [Akash and Function](https://www.codechef.com/MARCH221C/problems/CHFDBT) | [Java](src/main/java/com/github/pareronia/codechef/chfdbt/AkashAndFunction.java) |
 | CHFGCD | [Chef and GCD](https://www.codechef.com/problems/CHFGCD) | [Java](src/main/java/com/github/pareronia/codechef/chfgcd/ChefAndGCD.java) |
