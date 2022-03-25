@@ -82,6 +82,7 @@ https://www.codechef.com/
 | PRDW02 | [String Issue](https://www.codechef.com/PRWC2022/problems/PRDW02) | [Java](src/main/java/com/github/pareronia/codechef/prdw02/StringIssue.java) |
 | PROBDIFF | [Problem Difficulties](https://www.codechef.com/problems/PROBDIFF) | [Java](src/main/java/com/github/pareronia/codechef/probdiff/ProblemDifficulties.java) |
 | PROGLANG | [Programming Languages](https://www.codechef.com/problems/PROGLANG) | [Java](src/main/java/com/github/pareronia/codechef/proglang/ProgrammingLanguages.java) |
+| RATING | [The Rating Dilemma](https://www.codechef.com/MARCH222C/problems/RATING) | [Java](src/main/java/com/github/pareronia/codechef/rating/TheRatingDilemma.java) |
 | REDALERT | [Red Alert](https://www.codechef.com/LTIME98C/problems/REDALERT) | [Java](src/main/java/com/github/pareronia/codechef/redalert/RedAlert.java) |
 | REPEAT | [Odd Repeat](https://www.codechef.com/problems/REPEAT) | [Java](src/main/java/com/github/pareronia/codechef/repeat/OddRepeat.java) |
 | REVMEE | [Reverse Me](https://www.codechef.com/CCSTART2/problems/REVMEE) | [Java](src/main/java/com/github/pareronia/codechef/revmee/ReverseMe.java) |
