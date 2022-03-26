@@ -59,6 +59,7 @@ https://www.codechef.com/
 | HDIVISR | [Highest Divisor](https://www.codechef.com/problems/HDIVISR) | [Java](src/main/java/com/github/pareronia/codechef/hdivisr/HighestDivisor.java) |
 | HS08TEST | [ATM](https://www.codechef.com/problems/HS08TEST) | [Java](src/main/java/com/github/pareronia/codechef/hs08test/ATM.java) |
 | IAREVERS | [Reverse](https://www.codechef.com/IARCSJUD/problems/IAREVERS) | [Java](src/main/java/com/github/pareronia/codechef/iarevers/Reverse.java) |
+| INCRIQ | [Increase IQ](https://www.codechef.com/MARCH222C/problems/INCRIQ) | [Java](src/main/java/com/github/pareronia/codechef/incriq/IncreaseIQ.java) |
 | INTEST | [Enormous Input Test](https://www.codechef.com/problems/INTEST) | [Java](src/main/java/com/github/pareronia/codechef/intest/EnormousInputTest.java) |
 | ISBOTH | [Is Both Or Not](https://www.codechef.com/CCSTART2/problems/ISBOTH) | [Java](src/main/java/com/github/pareronia/codechef/isboth/IsBothOrNot.java) |
 | JAG | [Just a Graph](https://www.codechef.com/problems/JAG) | [Java](src/main/java/com/github/pareronia/codechef/jag/JustAGraph.java) |
