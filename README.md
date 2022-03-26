@@ -106,6 +106,7 @@ https://www.codechef.com/
 | TEST | [Life, the Universe, and Everything](https://www.codechef.com/LRNDSA01/problems/TEST) | [Java](src/main/java/com/github/pareronia/codechef/test/LifeTheUniverseAndEverything.java) |
 | THREDICE | [Three Dices](https://www.codechef.com/START6C/problems/THREDICE) | [Java](src/main/java/com/github/pareronia/codechef/thredice/Main.java) |
 | THREEPTS | [Three Points](https://www.codechef.com/problems/THREEPTS) | [Java](src/main/java/com/github/pareronia/codechef/threepts/ThreePoints.java) |
+| THREETOPICS | [The Three Topics](https://www.codechef.com/MARCH222C/problems/THREETOPICS) | [Java](src/main/java/com/github/pareronia/codechef/threetopics/TheThreeTopics.java) |
 | TILINGS | [Number of Tilings](https://www.codechef.com/IARCSJUD/problems/TILINGS) | [Java](src/main/java/com/github/pareronia/codechef/tilings/NumberOfTilings.java) |
 | TOTCRT | [Total Correct Submissions](https://www.codechef.com/problems/TOTCRT) | [Java](src/main/java/com/github/pareronia/codechef/totcrt/Main.java) |
 | TRAVELPS | [Travel Pass](https://www.codechef.com/SEPT21C/problems/TRAVELPS) | [Java](src/main/java/com/github/pareronia/codechef/travelps/TravelPass.java) |
