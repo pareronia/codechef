@@ -75,6 +75,7 @@ https://www.codechef.com/
 | MEXSPLIT | [Equal Mex Splitting](https://www.codechef.com/problems/MEXSPLIT) | [Java](src/main/java/com/github/pareronia/codechef/mexsplit/EqualMexSplitting.java) |
 | MINCOINS | [Minimum number of coins](https://www.codechef.com/LTIME106C/problems/MINCOINS) | [Java](src/main/java/com/github/pareronia/codechef/mincoins/MinimumNumberOfCoins.java) |
 | MINCOLOR | [Minimum Coloring](https://www.codechef.com/START30C/problems/MINCOLOR) | [Java](src/main/java/com/github/pareronia/codechef/mincolor/MinimumColoring.java) |
+| MISS_NUM | [Missing Numbers](https://www.codechef.com/MARCH222C/problems/MISS_NUM) | [Java](src/main/java/com/github/pareronia/codechef/miss_num/MissingNumbers.java) |
 | MODCARDS | [Min Mod Shuffle](https://www.codechef.com/CDIV2022/problems/MODCARDS) | [Java](src/main/java/com/github/pareronia/codechef/modcards/MinModShuffle.java) |
 | NANDXOR | [Dragonado And XOR](https://www.codechef.com/COOK139C/problems/NANDXOR) | [Java](src/main/java/com/github/pareronia/codechef/nandxor/DragonadoAndXOR.java) |
 | OLYRANK | [Olympics Ranking](https://www.codechef.com/problems/OLYRANK) | [Java](src/main/java/com/github/pareronia/codechef/olyrank/OlympicsRanking.java) |
