@@ -17,6 +17,7 @@ https://www.codechef.com/
 | BLACKCEL | [Black cells in a chessboard](https://www.codechef.com/problems/BLACKCEL) | [Java](src/main/java/com/github/pareronia/codechef/blackcel/BlackCellsInAChessboard.java) |
 | BOMBTHEBASE | [Bomb the base](https://www.codechef.com/START29D/problems/BOMBTHEBASE) | [Java](src/main/java/com/github/pareronia/codechef/bombthebase/BombTheBase.java) |
 | BOOKLIST | [List of Books](https://www.codechef.com/IARCSJUD/problems/BOOKLIST) | [Java](src/main/java/com/github/pareronia/codechef/booklist/ListOfBooks.java) |
+| BSCOST | [Binary String Cost](https://www.codechef.com/START32B/problems/BSCOST) | [Java](src/main/java/com/github/pareronia/codechef/bscost/BinaryStringCost.java) |
 | BUS | [Bus full of passengers](https://www.codechef.com/problems/BUS) | [Java](src/main/java/com/github/pareronia/codechef/bus/BusFullOfPassengers.java) |
 | BUTYPAIR | [Beautiful Pairs](https://www.codechef.com/LTIME98C/problems/BUTYPAIR) | [Java](src/main/java/com/github/pareronia/codechef/butypair/BeautifulPairs.java) |
 | BUYPLSE | [Buy Please](https://www.codechef.com/CCSTART2/problems/BUYPLSE) | [Java](src/main/java/com/github/pareronia/codechef/buyplse/BuyPlease.java) |
