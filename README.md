@@ -115,6 +115,7 @@ https://www.codechef.com/
 | TYRE | [Tyre problem](https://www.codechef.com/START29D/problems/TYRE) | [Java](src/main/java/com/github/pareronia/codechef/tyre/TyreProblem.java) |
 | UNCHANGEDOR | [The Unchanging OR](https://www.codechef.com/START31C/problems/UNCHANGEDOR) | [Java](src/main/java/com/github/pareronia/codechef/unchangedor/TheUnchangingOR.java) |
 | VALTRI | [Raju and His Trip](https://www.codechef.com/CCSTART2/problems/VALTRI) | [Java](src/main/java/com/github/pareronia/codechef/valtri/RajuAndHisTrip.java) |
+| VOLCONTROL | [Volume Control](https://www.codechef.com/START32B/problems/VOLCONTROL) | [Java](src/main/java/com/github/pareronia/codechef/volcontrol/VolumeControl.java) |
 | VOTERSDI | [Discrepancies in the Voters List](https://www.codechef.com/IARCSJUD/problems/VOTERSDI) | [Java](src/main/java/com/github/pareronia/codechef/votersdi/DiscrepanciesInTheVotersList.java) |
 | WORDLE | [Wordle](https://www.codechef.com/MARCH221C/problems/WORDLE) | [Java](src/main/java/com/github/pareronia/codechef/wordle/Wordle.java) |
 | WORDLIST | [Word List](https://www.codechef.com/IARCSJUD/problems/WORDLIST) | [Java](src/main/java/com/github/pareronia/codechef/wordlist/WordList.java) |
