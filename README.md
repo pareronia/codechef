@@ -113,6 +113,7 @@ https://www.codechef.com/
 | THREETOPICS | [The Three Topics](https://www.codechef.com/MARCH222C/problems/THREETOPICS) | [Java](src/main/java/com/github/pareronia/codechef/threetopics/TheThreeTopics.java) |
 | TILINGS | [Number of Tilings](https://www.codechef.com/IARCSJUD/problems/TILINGS) | [Java](src/main/java/com/github/pareronia/codechef/tilings/NumberOfTilings.java) |
 | TOTCRT | [Total Correct Submissions](https://www.codechef.com/problems/TOTCRT) | [Java](src/main/java/com/github/pareronia/codechef/totcrt/Main.java) |
+| TRAINPLN | [Training Plans](https://www.codechef.com/START32B/problems/TRAINPLN) | [Java](src/main/java/com/github/pareronia/codechef/trainpln/TrainingPlans.java) |
 | TRAVELPS | [Travel Pass](https://www.codechef.com/SEPT21C/problems/TRAVELPS) | [Java](src/main/java/com/github/pareronia/codechef/travelps/TravelPass.java) |
 | TRIVALCH | [Valid Triangle Or Not](https://www.codechef.com/CCSTART2/problems/TRIVALCH) | [Java](src/main/java/com/github/pareronia/codechef/trivalch/ValidTriangleOrNot.java) |
 | TYRE | [Tyre problem](https://www.codechef.com/START29D/problems/TYRE) | [Java](src/main/java/com/github/pareronia/codechef/tyre/TyreProblem.java) |
