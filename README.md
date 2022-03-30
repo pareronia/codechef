@@ -52,6 +52,7 @@ https://www.codechef.com/
 | FBC | [Fill the Bucket](https://www.codechef.com/START29D/problems/FBC) | [Java](src/main/java/com/github/pareronia/codechef/fbc/FillTheBucket.java) |
 | FINDMELI | [Find Me](https://www.codechef.com/CCSTART2/problems/FINDMELI) | [Java](src/main/java/com/github/pareronia/codechef/findmeli/FindMe.java) |
 | FINDSHOES | [Finding Shoes](https://www.codechef.com/START32B/problems/FINDSHOES) | [Java](src/main/java/com/github/pareronia/codechef/findshoes/FindingShoes.java) |
+| FLIPSORT | [Flip Sorting](https://www.codechef.com/START32B/problems/FLIPSORT) | [Java](src/main/java/com/github/pareronia/codechef/flipsort/FlipSorting.java) |
 | FLOW001 | [Add Two Numbers](https://www.codechef.com/problems/FLOW001) | [Java](src/main/java/com/github/pareronia/codechef/flow001/AddTwoNumbers.java) |
 | FLOW007 | [Reverse The Number](https://www.codechef.com/LRNDSA01/problems/FLOW007) | [Java](src/main/java/com/github/pareronia/codechef/flow007/ReverseTheNumber.java) |
 | FODCHAIN | [Food Chain](https://www.codechef.com/problems/FODCHAIN) | [Java](src/main/java/com/github/pareronia/codechef/fodchain/Main.java) |
