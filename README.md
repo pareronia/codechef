@@ -43,6 +43,7 @@ https://www.codechef.com/
 | CROSBLK | [Crossing Blocks](https://www.codechef.com/problems/CROSBLK) | [Java](src/main/java/com/github/pareronia/codechef/crosblk/CrossingBlocks.java) |
 | DIFACTRS | [Factors Finding](https://www.codechef.com/CCSTART2/problems/DIFACTRS) | [Java](src/main/java/com/github/pareronia/codechef/difactrs/FactorsFinding.java) |
 | DIGARR | [Rearranging digits to get a multiple of 5](https://www.codechef.com/COOK140C/problems/DIGARR) | [Java](src/main/java/com/github/pareronia/codechef/digarr/RearrangingDigitsToGetAMultipleOf5.java) |
+| DIGSMPAR | [Digit Sum Parities](https://www.codechef.com/COOK140C/problems/DIGSMPAR) | [Java](src/main/java/com/github/pareronia/codechef/digsmpar/DigitSumParities.java) |
 | DISCUS | [Discus Throw](https://www.codechef.com/MARCH221C/problems/DISCUS) | [Java](src/main/java/com/github/pareronia/codechef/discus/DiscusThrow.java) |
 | DRAWFIX | [Draw Fixing](https://www.codechef.com/IARCSJUD/problems/DRAWFIX) | [Java](src/main/java/com/github/pareronia/codechef/drawfix/DrawFixing.java) |
 | ECOCLASS | [Economics Class](https://www.codechef.com/START31C/problems/ECOCLASS) | [Java](src/main/java/com/github/pareronia/codechef/ecoclass/EconomicsClass.java) |
