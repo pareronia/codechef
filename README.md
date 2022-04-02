@@ -57,6 +57,7 @@ https://www.codechef.com/
 | FLOW001 | [Add Two Numbers](https://www.codechef.com/problems/FLOW001) | [Java](src/main/java/com/github/pareronia/codechef/flow001/AddTwoNumbers.java) |
 | FLOW007 | [Reverse The Number](https://www.codechef.com/LRNDSA01/problems/FLOW007) | [Java](src/main/java/com/github/pareronia/codechef/flow007/ReverseTheNumber.java) |
 | FODCHAIN | [Food Chain](https://www.codechef.com/problems/FODCHAIN) | [Java](src/main/java/com/github/pareronia/codechef/fodchain/Main.java) |
+| FUNHAND | [Funny Hand](https://www.codechef.com/COOK140C/problems/FUNHAND) | [Java](src/main/java/com/github/pareronia/codechef/funhand/FunnyHand.java) |
 | GENIUS | [Exact Marks](https://www.codechef.com/MARCH221C/problems/GENIUS) | [Java](src/main/java/com/github/pareronia/codechef/genius/ExactMarks.java) |
 | GFTSHP | [Gift Shop and Coupon](https://www.codechef.com/START30C/problems/GFTSHP) | [Java](src/main/java/com/github/pareronia/codechef/gftshp/GiftShopAndCoupon.java) |
 | GROUPASSGN | [Group Assignment](https://www.codechef.com/START31C/problems/GROUPASSGN) | [Java](src/main/java/com/github/pareronia/codechef/groupassgn/GroupAssignment.java) |
