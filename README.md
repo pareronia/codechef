@@ -47,6 +47,7 @@ https://www.codechef.com/
 | DISCUS | [Discus Throw](https://www.codechef.com/MARCH221C/problems/DISCUS) | [Java](src/main/java/com/github/pareronia/codechef/discus/DiscusThrow.java) |
 | DRAWFIX | [Draw Fixing](https://www.codechef.com/IARCSJUD/problems/DRAWFIX) | [Java](src/main/java/com/github/pareronia/codechef/drawfix/DrawFixing.java) |
 | ECOCLASS | [Economics Class](https://www.codechef.com/START31C/problems/ECOCLASS) | [Java](src/main/java/com/github/pareronia/codechef/ecoclass/EconomicsClass.java) |
+| EMAILREM | [Email Reminders](https://www.codechef.com/COOK140C/problems/EMAILREM) | [Java](src/main/java/com/github/pareronia/codechef/emailrem/EmailReminders.java) |
 | ENDCORR | [End of Corruption](https://www.codechef.com/IARCSJUD/problems/ENDCORR) | [Java](src/main/java/com/github/pareronia/codechef/endcorr/EndOfCorruption.java) |
 | ETUP | [Even tuples](https://www.codechef.com/START6C/problems/ETUP) | [Java](src/main/java/com/github/pareronia/codechef/etup/Main.java) |
 | EVENGAME | [Even Sum](https://www.codechef.com/problems/EVENGAME) | [Java](src/main/java/com/github/pareronia/codechef/evengame/EvenSum.java) |
