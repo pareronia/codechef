@@ -66,6 +66,7 @@ https://www.codechef.com/
 | GFTSHP | [Gift Shop and Coupon](https://www.codechef.com/START30C/problems/GFTSHP) | [Java](src/main/java/com/github/pareronia/codechef/gftshp/GiftShopAndCoupon.java) |
 | GROUPASSGN | [Group Assignment](https://www.codechef.com/START31C/problems/GROUPASSGN) | [Java](src/main/java/com/github/pareronia/codechef/groupassgn/GroupAssignment.java) |
 | HARDBET | [Hardest Problem Bet](https://www.codechef.com/problems/HARDBET) | [Java](src/main/java/com/github/pareronia/codechef/hardbet/HardestProblemBet.java) |
+| HAWKINTERN | [Hawkeye Intern](https://www.codechef.com/COMA2022/problems/HAWKINTERN) | [Java](src/main/java/com/github/pareronia/codechef/hawkintern/HawkeyeIntern.java) |
 | HDIVISR | [Highest Divisor](https://www.codechef.com/problems/HDIVISR) | [Java](src/main/java/com/github/pareronia/codechef/hdivisr/HighestDivisor.java) |
 | HS08TEST | [ATM](https://www.codechef.com/problems/HS08TEST) | [Java](src/main/java/com/github/pareronia/codechef/hs08test/ATM.java) |
 | IAREVERS | [Reverse](https://www.codechef.com/IARCSJUD/problems/IAREVERS) | [Java](src/main/java/com/github/pareronia/codechef/iarevers/Reverse.java) |
