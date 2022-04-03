@@ -1,0 +1,184 @@
+package com.github.pareronia.codechef.integergame;
+
+import static java.util.Arrays.asList;
+import static java.util.stream.Collectors.counting;
+import static java.util.stream.Collectors.groupingBy;
+
+import java.io.BufferedReader;
+import java.io.ByteArrayOutputStream;
+import java.io.Closeable;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.PrintStream;
+import java.net.URISyntaxException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.StringTokenizer;
+
+/**
+ * Integer Game
+ * @see <a href="https://www.codechef.com/COMA2022/problems/INTEGERGAME">https://www.codechef.com/COMA2022/problems/INTEGERGAME</a>
+ */
+class IntegerGame {
+
+    private static final int MOD = 1_000_000_007;
+    
+    private final InputStream in;
+    private final PrintStream out;
+    
+    public IntegerGame(
+            final Boolean sample, final InputStream in, final PrintStream out) {
+        this.in = in;
+        this.out = out;
+    }
+    
+    private void handleTestCase(final Integer i, final FastScanner sc) {
+        final int n = sc.nextInt();
+        int ans;
+        if (n <= 2) {
+            ans = 2;
+        } else {
+            ans = 1;
+            final List<Integer> pf = new ArrayList<>();
+            pf.add(2);
+            for (int j = 3; j <= n; j++) {
+                pf.addAll(Primes.primeFactorisation(j));
+            }
+            final Map<Integer, Long> exp = pf.stream().collect(groupingBy(f -> f, counting()));
+            for (final Long v : exp.values()) {
+                ans *= (v + 1) % MOD;
+            }
+        }
+        this.out.println(ans);
+    }
+    
+    public void solve() {
+        try (final FastScanner sc = new FastScanner(this.in)) {
+            final int numberOfTestCases = isSample() ? sc.nextInt() : 1;
+            for (int i = 0; i < numberOfTestCases; i++) {
+                handleTestCase(i, sc);
+            }
+        }
+    }
+
+    public static void main(final String[] args) throws IOException, URISyntaxException {
+        final boolean sample = isSample();
+        final InputStream is;
+        final PrintStream out;
+        final ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        long timerStart = 0;
+        if (sample) {
+            is = IntegerGame.class.getResourceAsStream("sample.in");
+            out = new PrintStream(baos, true);
+            timerStart = System.nanoTime();
+        } else {
+            is = System.in;
+            out = System.out;
+        }
+        
+        new IntegerGame(sample, is, out).solve();
+        
+        out.flush();
+        if (sample) {
+            final long timeSpent = (System.nanoTime() - timerStart) / 1_000;
+            final double time;
+            final String unit;
+            if (timeSpent < 1_000) {
+                time = timeSpent;
+                unit = "µs";
+            } else if (timeSpent < 1_000_000) {
+                time = timeSpent / 1_000.0;
+                unit = "ms";
+            } else {
+                time = timeSpent / 1_000_000.0;
+                unit = "s";
+            }
+            final Path path
+                    = Paths.get(IntegerGame.class.getResource("sample.out").toURI());
+            final List<String> expected = Files.readAllLines(path);
+            final List<String> actual = asList(baos.toString().split("\\r?\\n"));
+            if (!expected.equals(actual)) {
+                throw new AssertionError(String.format(
+                        "Expected %s, got %s", expected, actual));
+            }
+            actual.forEach(System.out::println);
+            System.out.println(String.format("took: %.3f %s", time, unit));
+        }
+    }
+    
+    private static boolean isSample() {
+        try {
+            return "sample".equals(System.getProperty("codechef"));
+        } catch (final SecurityException e) {
+            return false;
+        }
+    }
+    
+    private static final class FastScanner implements Closeable {
+        private final BufferedReader br;
+        private StringTokenizer st;
+        
+        public FastScanner(final InputStream in) {
+            this.br = new BufferedReader(new InputStreamReader(in));
+            st = new StringTokenizer("");
+        }
+        
+        public String next() {
+            while (!st.hasMoreTokens()) {
+                try {
+                    st = new StringTokenizer(br.readLine());
+                } catch (final IOException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+            return st.nextToken();
+        }
+    
+        public int nextInt() {
+            return Integer.parseInt(next());
+        }
+
+        @Override
+        public void close() {
+            try {
+                this.br.close();
+            } catch (final IOException e) {
+                // ignore
+            }
+        }
+    }
+
+    private static class Primes {
+        public static int[] smallestPrimeFactors(final int n) {
+            final int[] spf = new int[n + 1];
+            spf[1] = 1;
+            for (int j = 2; j <= n; j++) {
+                if (spf[j] != 0) {
+                    continue;
+                }
+                for (int k = j; k <= n; k += j) {
+                    if (spf[k] == 0) {
+                        spf[k] = j;
+                    }
+                }
+            }
+            return spf;
+        }
+        
+        public static List<Integer> primeFactorisation(final int n) {
+            final int[] spf = smallestPrimeFactors(n);
+            final List<Integer> ans = new ArrayList<>();
+            int nn = n;
+            while (nn > 1) {
+                ans.add(spf[nn]);
+                nn /= spf[nn];
+            }
+            return ans;
+        }
+    }
+}
