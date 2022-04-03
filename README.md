@@ -7,6 +7,7 @@ https://www.codechef.com/
 | Code | Problem | Solution |
 | --- | --- | --- |
 | ADDNATRL | [Add Natural Numbers](https://www.codechef.com/CCSTART2/problems/ADDNATRL) | [Java](src/main/java/com/github/pareronia/codechef/addnatrl/AddNaturalNumbers.java) |
+| AGECAT1 | [Age Category](https://www.codechef.com/COMA2022/problems/AGECAT1) | [Java](src/main/java/com/github/pareronia/codechef/agecat1/AgeCategory.java) |
 | AIRLINE | [Airline Restrictions](https://www.codechef.com/SEPT21C/problems/AIRLINE) | [Java](src/main/java/com/github/pareronia/codechef/airline/AirlineRestrictions.java) |
 | ALTERNATEDIV | [Alternating Divisibility](https://www.codechef.com/COOK139C/problems/ALTERNATEDIV) | [Java](src/main/java/com/github/pareronia/codechef/alternatediv/AlternatingDivisibility.java) |
 | ALTSTR | [Alternating String](https://www.codechef.com/START31C/problems/ALTSTR) | [Java](src/main/java/com/github/pareronia/codechef/altstr/AlternatingString.java) |
