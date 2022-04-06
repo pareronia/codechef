@@ -93,6 +93,7 @@ https://www.codechef.com/
 | MINCOLOR | [Minimum Coloring](https://www.codechef.com/START30C/problems/MINCOLOR) | [Java](src/main/java/com/github/pareronia/codechef/mincolor/MinimumColoring.java) |
 | MISS_NUM | [Missing Numbers](https://www.codechef.com/MARCH222C/problems/MISS_NUM) | [Java](src/main/java/com/github/pareronia/codechef/miss_num/MissingNumbers.java) |
 | MODCARDS | [Min Mod Shuffle](https://www.codechef.com/CDIV2022/problems/MODCARDS) | [Java](src/main/java/com/github/pareronia/codechef/modcards/MinModShuffle.java) |
+| MTE | [Make Them Equal](https://www.codechef.com/START33C/problems/MTE) | [Java](src/main/java/com/github/pareronia/codechef/mte/MakeThemEqual.java) |
 | NANDXOR | [Dragonado And XOR](https://www.codechef.com/COOK139C/problems/NANDXOR) | [Java](src/main/java/com/github/pareronia/codechef/nandxor/DragonadoAndXOR.java) |
 | NONADJFLIP | [Non Adjacent Flips](https://www.codechef.com/START33C/problems/NONADJFLIP) | [Java](src/main/java/com/github/pareronia/codechef/nonadjflip/NonAdjacentFlips.java) |
 | OLYRANK | [Olympics Ranking](https://www.codechef.com/problems/OLYRANK) | [Java](src/main/java/com/github/pareronia/codechef/olyrank/OlympicsRanking.java) |
