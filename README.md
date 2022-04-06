@@ -88,6 +88,7 @@ https://www.codechef.com/
 | MAXMEXPATH | [MEX on Trees](https://www.codechef.com/MARCH221C/problems/MAXMEXPATH) | [Java](src/main/java/com/github/pareronia/codechef/maxmexpath/MEXOnTrees.java) |
 | MAXTHEMIN | [Maximize the Minimum](https://www.codechef.com/START32B/problems/MAXTHEMIN) | [Java](src/main/java/com/github/pareronia/codechef/maxthemin/MaximizeTheMinimum.java) |
 | MEXSPLIT | [Equal Mex Splitting](https://www.codechef.com/problems/MEXSPLIT) | [Java](src/main/java/com/github/pareronia/codechef/mexsplit/EqualMexSplitting.java) |
+| MINCARS | [Minimum Cars required](https://www.codechef.com/START33C/problems/MINCARS) | [Java](src/main/java/com/github/pareronia/codechef/mincars/MinimumCarsRequired.java) |
 | MINCOINS | [Minimum number of coins](https://www.codechef.com/LTIME106C/problems/MINCOINS) | [Java](src/main/java/com/github/pareronia/codechef/mincoins/MinimumNumberOfCoins.java) |
 | MINCOLOR | [Minimum Coloring](https://www.codechef.com/START30C/problems/MINCOLOR) | [Java](src/main/java/com/github/pareronia/codechef/mincolor/MinimumColoring.java) |
 | MISS_NUM | [Missing Numbers](https://www.codechef.com/MARCH222C/problems/MISS_NUM) | [Java](src/main/java/com/github/pareronia/codechef/miss_num/MissingNumbers.java) |
