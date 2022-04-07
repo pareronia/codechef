@@ -39,6 +39,7 @@ https://www.codechef.com/
 | CHFSPL | [Chef and Spells](https://www.codechef.com/LTIME98C/problems/CHFSPL) | [Java](src/main/java/com/github/pareronia/codechef/chfspl/ChefAndSpells.java) |
 | CHSFORMT | [Chess Format](https://www.codechef.com/problems/CHSFORMT) | [Java](src/main/java/com/github/pareronia/codechef/chsformt/Main.java) |
 | CODEA1 | [First Day](https://www.codechef.com/problems/CODEA1) | [Java](src/main/java/com/github/pareronia/codechef/codea1/FirstDay.java) |
+| CODEA2 | [Growing Rivalry](https://www.codechef.com/problems/CODEA2) | [Java](src/main/java/com/github/pareronia/codechef/codea2/GrowingRivalry.java) |
 | CORONA | [India Fights Corona](https://www.codechef.com/problems/CORONA) | [Java](src/main/java/com/github/pareronia/codechef/corona/IndiaFightsCorona.java) |
 | COURSEREG | [Course Registration](https://www.codechef.com/START32B/problems/COURSEREG) | [Java](src/main/java/com/github/pareronia/codechef/coursereg/CourseRegistration.java) |
 | CREDCOINS | [CRED Coins](https://www.codechef.com/LTIME106C/problems/CREDCOINS) | [Java](src/main/java/com/github/pareronia/codechef/credcoins/CREDCoins.java) |
