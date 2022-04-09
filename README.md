@@ -103,6 +103,7 @@ https://www.codechef.com/
 | MTE | [Make Them Equal](https://www.codechef.com/START33C/problems/MTE) | [Java](src/main/java/com/github/pareronia/codechef/mte/MakeThemEqual.java) |
 | NANDXOR | [Dragonado And XOR](https://www.codechef.com/COOK139C/problems/NANDXOR) | [Java](src/main/java/com/github/pareronia/codechef/nandxor/DragonadoAndXOR.java) |
 | NONADJFLIP | [Non Adjacent Flips](https://www.codechef.com/START33C/problems/NONADJFLIP) | [Java](src/main/java/com/github/pareronia/codechef/nonadjflip/NonAdjacentFlips.java) |
+| NOTUNIT | [Dazzling GCD Pair](https://www.codechef.com/APRIL221C/problems/NOTUNIT) | [Java](src/main/java/com/github/pareronia/codechef/notunit/DazzlingGCDPair.java) |
 | OLYRANK | [Olympics Ranking](https://www.codechef.com/problems/OLYRANK) | [Java](src/main/java/com/github/pareronia/codechef/olyrank/OlympicsRanking.java) |
 | PENALTY | [Penalty Shots](https://www.codechef.com/problems/PENALTY) | [Java](src/main/java/com/github/pareronia/codechef/penalty/PenaltyShots.java) |
 | PRDW02 | [String Issue](https://www.codechef.com/PRWC2022/problems/PRDW02) | [Java](src/main/java/com/github/pareronia/codechef/prdw02/StringIssue.java) |
