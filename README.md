@@ -143,6 +143,7 @@ https://www.codechef.com/
 | VOLCONTROL | [Volume Control](https://www.codechef.com/START32B/problems/VOLCONTROL) | [Java](src/main/java/com/github/pareronia/codechef/volcontrol/VolumeControl.java) |
 | VOTERSDI | [Discrepancies in the Voters List](https://www.codechef.com/IARCSJUD/problems/VOTERSDI) | [Java](src/main/java/com/github/pareronia/codechef/votersdi/DiscrepanciesInTheVotersList.java) |
 | WATERCOOLER1 | [The Cooler Dilemma 1](https://www.codechef.com/APRIL221C/problems/WATERCOOLER1) | [Java](src/main/java/com/github/pareronia/codechef/watercooler1/TheCoolerDilemma1.java) |
+| WATERCOOLER2 | [The Cooler Dilemma 2](https://www.codechef.com/APRIL221C/problems/WATERCOOLER2) | [Java](src/main/java/com/github/pareronia/codechef/watercooler2/TheCoolerDilemma2.java) |
 | WORDLE | [Wordle](https://www.codechef.com/MARCH221C/problems/WORDLE) | [Java](src/main/java/com/github/pareronia/codechef/wordle/Wordle.java) |
 | WORDLIST | [Word List](https://www.codechef.com/IARCSJUD/problems/WORDLIST) | [Java](src/main/java/com/github/pareronia/codechef/wordlist/WordList.java) |
 | XLSQUARE | [Large Square](https://www.codechef.com/problems/XLSQUARE) | [Java](src/main/java/com/github/pareronia/codechef/xlsquare/LargeSquare.java) |
