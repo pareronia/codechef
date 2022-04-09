@@ -40,7 +40,7 @@ https://www.codechef.com/
 | CHSFORMT | [Chess Format](https://www.codechef.com/problems/CHSFORMT) | [Java](src/main/java/com/github/pareronia/codechef/chsformt/Main.java) |
 | CODEA1 | [First Day](https://www.codechef.com/problems/CODEA1) | [Java](src/main/java/com/github/pareronia/codechef/codea1/FirstDay.java) |
 | CODEA2 | [Growing Rivalry](https://www.codechef.com/problems/CODEA2) | [Java](src/main/java/com/github/pareronia/codechef/codea2/GrowingRivalry.java) |
-| CODEA3 | [Pass or Fail](https://www.codechef.com/CDAY2022/problems/CODEA3) | [Java](src/main/java/com/github/pareronia/codechef/codea3/PassOrFail.java) |
+| CODEA3 | [Pass or Fail](https://www.codechef.com/problems/CODEA3) | [Java](src/main/java/com/github/pareronia/codechef/codea3/PassOrFail.java) |
 | CORONA | [India Fights Corona](https://www.codechef.com/problems/CORONA) | [Java](src/main/java/com/github/pareronia/codechef/corona/IndiaFightsCorona.java) |
 | COURSEREG | [Course Registration](https://www.codechef.com/START32B/problems/COURSEREG) | [Java](src/main/java/com/github/pareronia/codechef/coursereg/CourseRegistration.java) |
 | CREDCOINS | [CRED Coins](https://www.codechef.com/LTIME106C/problems/CREDCOINS) | [Java](src/main/java/com/github/pareronia/codechef/credcoins/CREDCoins.java) |
@@ -90,6 +90,7 @@ https://www.codechef.com/
 | LEADGAME | [Lead Game](https://www.codechef.com/IARCSJUD/problems/LEADGAME) | [Java](src/main/java/com/github/pareronia/codechef/leadgame/LeadGame.java) |
 | LONGPALI | [Longest Palindrome](https://www.codechef.com/IARCSJUD/problems/LONGPALI) | [Java](src/main/java/com/github/pareronia/codechef/longpali/LongestPalindrome.java) |
 | LUCKFOUR | [Lucky Four](https://www.codechef.com/problems/LUCKFOUR) | [Java](src/main/java/com/github/pareronia/codechef/luckfour/LuckyFour.java) |
+| MANIPULATE | [Ezio and Guards](https://www.codechef.com/APRIL221C/problems/MANIPULATE) | [Java](src/main/java/com/github/pareronia/codechef/manipulate/EzioAndGuards.java) |
 | MAX01EVSWP | [Same Parity Swaps in Binary Strings](https://www.codechef.com/MARCH222C/problems/MAX01EVSWP) | [Java](src/main/java/com/github/pareronia/codechef/max01evswp/SameParitySwapsInBinaryStrings.java) |
 | MAXMEXPATH | [MEX on Trees](https://www.codechef.com/MARCH221C/problems/MAXMEXPATH) | [Java](src/main/java/com/github/pareronia/codechef/maxmexpath/MEXOnTrees.java) |
 | MAXTHEMIN | [Maximize the Minimum](https://www.codechef.com/START32B/problems/MAXTHEMIN) | [Java](src/main/java/com/github/pareronia/codechef/maxthemin/MaximizeTheMinimum.java) |
