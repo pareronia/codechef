@@ -108,6 +108,7 @@ https://www.codechef.com/
 | OLYRANK | [Olympics Ranking](https://www.codechef.com/problems/OLYRANK) | [Java](src/main/java/com/github/pareronia/codechef/olyrank/OlympicsRanking.java) |
 | PENALTY | [Penalty Shots](https://www.codechef.com/problems/PENALTY) | [Java](src/main/java/com/github/pareronia/codechef/penalty/PenaltyShots.java) |
 | PRDW02 | [String Issue](https://www.codechef.com/PRWC2022/problems/PRDW02) | [Java](src/main/java/com/github/pareronia/codechef/prdw02/StringIssue.java) |
+| PRIMESM | [Prime Sum](https://www.codechef.com/APRIL221C/problems/PRIMESM) | [Java](src/main/java/com/github/pareronia/codechef/primesm/PrimeSum.java) |
 | PROBDIFF | [Problem Difficulties](https://www.codechef.com/problems/PROBDIFF) | [Java](src/main/java/com/github/pareronia/codechef/probdiff/ProblemDifficulties.java) |
 | PROGLANG | [Programming Languages](https://www.codechef.com/problems/PROGLANG) | [Java](src/main/java/com/github/pareronia/codechef/proglang/ProgrammingLanguages.java) |
 | RATING | [The Rating Dilemma](https://www.codechef.com/MARCH222C/problems/RATING) | [Java](src/main/java/com/github/pareronia/codechef/rating/TheRatingDilemma.java) |
