@@ -13,6 +13,7 @@ https://www.codechef.com/
 | ALTSTR | [Alternating String](https://www.codechef.com/START31C/problems/ALTSTR) | [Java](src/main/java/com/github/pareronia/codechef/altstr/AlternatingString.java) |
 | ANGTRICH | [Triangle With Angle](https://www.codechef.com/CCSTART2/problems/ANGTRICH) | [Java](src/main/java/com/github/pareronia/codechef/angtrich/TriangleWithAngle.java) |
 | ATTNDNCE | [Check Attendance](https://www.codechef.com/CDIV2022/problems/ATTNDNCE) | [Java](src/main/java/com/github/pareronia/codechef/attndnce/CheckAttendance.java) |
+| AVGARR | [Average Array](https://www.codechef.com/START34C/problems/AVGARR) | [Java](src/main/java/com/github/pareronia/codechef/avgarr/AverageArray.java) |
 | AXNODR | [Dazzling AXNODR Challenge](https://www.codechef.com/APRIL221C/problems/AXNODR) | [Java](src/main/java/com/github/pareronia/codechef/axnodr/DazzlingAXNODRChallenge.java) |
 | BALREV | [Balanced Reversals](https://www.codechef.com/START30C/problems/BALREV) | [Java](src/main/java/com/github/pareronia/codechef/balrev/BalancedReversals.java) |
 | BATH | [Bath in Winters](https://www.codechef.com/MARCH221C/problems/BATH) | [Java](src/main/java/com/github/pareronia/codechef/bath/BathInWinters.java) |
