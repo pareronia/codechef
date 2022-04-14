@@ -60,6 +60,7 @@ https://www.codechef.com/
 | ENDCORR | [End of Corruption](https://www.codechef.com/IARCSJUD/problems/ENDCORR) | [Java](src/main/java/com/github/pareronia/codechef/endcorr/EndOfCorruption.java) |
 | ETUP | [Even tuples](https://www.codechef.com/START6C/problems/ETUP) | [Java](src/main/java/com/github/pareronia/codechef/etup/Main.java) |
 | EVENGAME | [Even Sum](https://www.codechef.com/problems/EVENGAME) | [Java](src/main/java/com/github/pareronia/codechef/evengame/EvenSum.java) |
+| EXPIRY | [Expiring Bread](https://www.codechef.com/START34C/problems/EXPIRY) | [Java](src/main/java/com/github/pareronia/codechef/expiry/ExpiringBread.java) |
 | EXTRICHK | [Triangle Everywhere](https://www.codechef.com/CCSTART2/problems/EXTRICHK) | [Java](src/main/java/com/github/pareronia/codechef/extrichk/TriangleEverywhere.java) |
 | FBC | [Fill the Bucket](https://www.codechef.com/START29D/problems/FBC) | [Java](src/main/java/com/github/pareronia/codechef/fbc/FillTheBucket.java) |
 | FINDMELI | [Find Me](https://www.codechef.com/CCSTART2/problems/FINDMELI) | [Java](src/main/java/com/github/pareronia/codechef/findmeli/FindMe.java) |
