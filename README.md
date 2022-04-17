@@ -112,6 +112,7 @@ https://www.codechef.com/
 | NOTUNIT | [Dazzling GCD Pair](https://www.codechef.com/APRIL221C/problems/NOTUNIT) | [Java](src/main/java/com/github/pareronia/codechef/notunit/DazzlingGCDPair.java) |
 | OLYRANK | [Olympics Ranking](https://www.codechef.com/problems/OLYRANK) | [Java](src/main/java/com/github/pareronia/codechef/olyrank/OlympicsRanking.java) |
 | PAIRPAIN | [Pair Pain](https://www.codechef.com/LTIME107C/problems/PAIRPAIN) | [Java](src/main/java/com/github/pareronia/codechef/pairpain/PairPain.java) |
+| PALINPAIN | [Palindrome Pain](https://www.codechef.com/LTIME107C/problems/PALINPAIN) | [Java](src/main/java/com/github/pareronia/codechef/palinpain/PalindromePain.java) |
 | PENALTY | [Penalty Shots](https://www.codechef.com/problems/PENALTY) | [Java](src/main/java/com/github/pareronia/codechef/penalty/PenaltyShots.java) |
 | POSPROD | [Positive Products](https://www.codechef.com/START34C/problems/POSPROD) | [Java](src/main/java/com/github/pareronia/codechef/posprod/PositiveProducts.java) |
 | PRDW02 | [String Issue](https://www.codechef.com/PRWC2022/problems/PRDW02) | [Java](src/main/java/com/github/pareronia/codechef/prdw02/StringIssue.java) |
