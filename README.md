@@ -93,6 +93,7 @@ https://www.codechef.com/
 | LAPIN | [Lapindromes](https://www.codechef.com/LRNDSA01/problems/LAPIN) | [Java](src/main/java/com/github/pareronia/codechef/lapin/Lapindromes.java) |
 | LEADGAME | [Lead Game](https://www.codechef.com/IARCSJUD/problems/LEADGAME) | [Java](src/main/java/com/github/pareronia/codechef/leadgame/LeadGame.java) |
 | LONGPALI | [Longest Palindrome](https://www.codechef.com/IARCSJUD/problems/LONGPALI) | [Java](src/main/java/com/github/pareronia/codechef/longpali/LongestPalindrome.java) |
+| LTIME | [Lunchtime](https://www.codechef.com/LTIME107C/problems/LTIME) | [Java](src/main/java/com/github/pareronia/codechef/ltime/Lunchtime.java) |
 | LUCKFOUR | [Lucky Four](https://www.codechef.com/problems/LUCKFOUR) | [Java](src/main/java/com/github/pareronia/codechef/luckfour/LuckyFour.java) |
 | MANIPULATE | [Ezio and Guards](https://www.codechef.com/APRIL221C/problems/MANIPULATE) | [Java](src/main/java/com/github/pareronia/codechef/manipulate/EzioAndGuards.java) |
 | MAX01EVSWP | [Same Parity Swaps in Binary Strings](https://www.codechef.com/MARCH222C/problems/MAX01EVSWP) | [Java](src/main/java/com/github/pareronia/codechef/max01evswp/SameParitySwapsInBinaryStrings.java) |
