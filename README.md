@@ -23,6 +23,7 @@ https://www.codechef.com/
 | BSCOST | [Binary String Cost](https://www.codechef.com/START32B/problems/BSCOST) | [Java](src/main/java/com/github/pareronia/codechef/bscost/BinaryStringCost.java) |
 | BUDGET_ | [Monthly Budget](https://www.codechef.com/START33C/problems/BUDGET_) | [Java](src/main/java/com/github/pareronia/codechef/budget_/MonthlyBudget.java) |
 | BULBLIFE | [Good Quality Bulbs](https://www.codechef.com/START34C/problems/BULBLIFE) | [Java](src/main/java/com/github/pareronia/codechef/bulblife/GoodQualityBulbs.java) |
+| BULLET | [Mario and Bullet](https://www.codechef.com/LTIME107C/problems/BULLET) | [Java](src/main/java/com/github/pareronia/codechef/bullet/MarioAndBullet.java) |
 | BUS | [Bus full of passengers](https://www.codechef.com/problems/BUS) | [Java](src/main/java/com/github/pareronia/codechef/bus/BusFullOfPassengers.java) |
 | BUTYPAIR | [Beautiful Pairs](https://www.codechef.com/LTIME98C/problems/BUTYPAIR) | [Java](src/main/java/com/github/pareronia/codechef/butypair/BeautifulPairs.java) |
 | BUYPLSE | [Buy Please](https://www.codechef.com/CCSTART2/problems/BUYPLSE) | [Java](src/main/java/com/github/pareronia/codechef/buyplse/BuyPlease.java) |
