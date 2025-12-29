@@ -59,6 +59,7 @@ https://www.codechef.com/
 | DISTDILEM | [Distinct Dilemma](https://www.codechef.com/START33C/problems/DISTDILEM) | [Java](src/main/java/com/github/pareronia/codechef/distdilem/DistinctDilemma.java) |
 | DRAWFIX | [Draw Fixing](https://www.codechef.com/IARCSJUD/problems/DRAWFIX) | [Java](src/main/java/com/github/pareronia/codechef/drawfix/DrawFixing.java) |
 | ECOCLASS | [Economics Class](https://www.codechef.com/START31C/problems/ECOCLASS) | [Java](src/main/java/com/github/pareronia/codechef/ecoclass/EconomicsClass.java) |
+| EDGELIM | [Edge Elimination](https://www.codechef.com/ICPCKANRP25/problems/EDGELIM) | [Java](src/main/java/com/github/pareronia/codechef/edgelim/EdgeElimination.java) |
 | EMAILREM | [Email Reminders](https://www.codechef.com/COOK140C/problems/EMAILREM) | [Java](src/main/java/com/github/pareronia/codechef/emailrem/EmailReminders.java) |
 | ENDCORR | [End of Corruption](https://www.codechef.com/IARCSJUD/problems/ENDCORR) | [Java](src/main/java/com/github/pareronia/codechef/endcorr/EndOfCorruption.java) |
 | ETUP | [Even tuples](https://www.codechef.com/START6C/problems/ETUP) | [Java](src/main/java/com/github/pareronia/codechef/etup/Main.java) |
