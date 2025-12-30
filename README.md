@@ -15,6 +15,7 @@ https://www.codechef.com/
 | ATTNDNCE | [Check Attendance](https://www.codechef.com/CDIV2022/problems/ATTNDNCE) | [Java](src/main/java/com/github/pareronia/codechef/attndnce/CheckAttendance.java) |
 | AVGARR | [Average Array](https://www.codechef.com/START34C/problems/AVGARR) | [Java](src/main/java/com/github/pareronia/codechef/avgarr/AverageArray.java) |
 | AXNODR | [Dazzling AXNODR Challenge](https://www.codechef.com/APRIL221C/problems/AXNODR) | [Java](src/main/java/com/github/pareronia/codechef/axnodr/DazzlingAXNODRChallenge.java) |
+| BALLOONS | [Coloured Balloons](https://www.codechef.com/problems/BALLOONS) | [Java](src/main/java/com/github/pareronia/codechef/balloons/ColouredBalloons.java) |
 | BALREV | [Balanced Reversals](https://www.codechef.com/START30C/problems/BALREV) | [Java](src/main/java/com/github/pareronia/codechef/balrev/BalancedReversals.java) |
 | BATH | [Bath in Winters](https://www.codechef.com/MARCH221C/problems/BATH) | [Java](src/main/java/com/github/pareronia/codechef/bath/BathInWinters.java) |
 | BLACKCEL | [Black cells in a chessboard](https://www.codechef.com/problems/BLACKCEL) | [Java](src/main/java/com/github/pareronia/codechef/blackcel/BlackCellsInAChessboard.java) |
