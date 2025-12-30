@@ -137,6 +137,7 @@ https://www.codechef.com/
 | SORTROWS | [Sorting Rows of Numbers](https://www.codechef.com/IARCSJUD/problems/SORTROWS) | [Java](src/main/java/com/github/pareronia/codechef/sortrows/SortingRowsOfNumbers.java) |
 | SPLITPAIR | [Sad Splits](https://www.codechef.com/LTIME106C/problems/SPLITPAIR) | [Java](src/main/java/com/github/pareronia/codechef/splitpair/SadSplits.java) |
 | SQALPAT | [Alternative Square Pattern](https://www.codechef.com/CCSTART2/problems/SQALPAT) | [Java](src/main/java/com/github/pareronia/codechef/sqalpat/AlternativeSquarePattern.java) |
+| STOPCOUNT | [Stop The Count](https://www.codechef.com/problems/STOPCOUNT) | [Java](src/main/java/com/github/pareronia/codechef/stopcount/StopTheCount.java) |
 | STRP | [String protocol](https://www.codechef.com/START29D/problems/STRP) | [Java](src/main/java/com/github/pareronia/codechef/strp/StringProtocol.java) |
 | SUBSTRING | [Substring of a Substring](https://www.codechef.com/MARCH221C/problems/SUBSTRING) | [Java](src/main/java/com/github/pareronia/codechef/substring/SubstringOfASubstring.java) |
 | SUB_XOR | [Subarray XOR](https://www.codechef.com/MARCH221C/problems/SUB_XOR) | [Java](src/main/java/com/github/pareronia/codechef/sub_xor/SubarrayXOR.java) |
