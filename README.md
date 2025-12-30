@@ -53,6 +53,7 @@ https://www.codechef.com/
 | CRICRANK | [Cricket Ranking](https://www.codechef.com/START6C/problems/CRICRANK) | [Java](src/main/java/com/github/pareronia/codechef/cricrank/Main.java) |
 | CRICUP | [Cup Finals](https://www.codechef.com/START31C/problems/CRICUP) | [Java](src/main/java/com/github/pareronia/codechef/cricup/CupFinals.java) |
 | CROSBLK | [Crossing Blocks](https://www.codechef.com/problems/CROSBLK) | [Java](src/main/java/com/github/pareronia/codechef/crosblk/CrossingBlocks.java) |
+| DELARR77 | [Deleting Array Again](https://www.codechef.com/problems/DELARR77) | [Java](src/main/java/com/github/pareronia/codechef/delarr77/DeletingArrayAgain.java) |
 | DIFACTRS | [Factors Finding](https://www.codechef.com/CCSTART2/problems/DIFACTRS) | [Java](src/main/java/com/github/pareronia/codechef/difactrs/FactorsFinding.java) |
 | DIGARR | [Rearranging digits to get a multiple of 5](https://www.codechef.com/COOK140C/problems/DIGARR) | [Java](src/main/java/com/github/pareronia/codechef/digarr/RearrangingDigitsToGetAMultipleOf5.java) |
 | DIGSMPAR | [Digit Sum Parities](https://www.codechef.com/COOK140C/problems/DIGSMPAR) | [Java](src/main/java/com/github/pareronia/codechef/digsmpar/DigitSumParities.java) |
