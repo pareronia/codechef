@@ -162,6 +162,7 @@ https://www.codechef.com/
 | WORDLE | [Wordle](https://www.codechef.com/MARCH221C/problems/WORDLE) | [Java](src/main/java/com/github/pareronia/codechef/wordle/Wordle.java) |
 | WORDLIST | [Word List](https://www.codechef.com/IARCSJUD/problems/WORDLIST) | [Java](src/main/java/com/github/pareronia/codechef/wordlist/WordList.java) |
 | XLSQUARE | [Large Square](https://www.codechef.com/problems/XLSQUARE) | [Java](src/main/java/com/github/pareronia/codechef/xlsquare/LargeSquare.java) |
+| XMASTREE | [Christmas Trees](https://www.codechef.com/problems/XMASTREE) | [Java](src/main/java/com/github/pareronia/codechef/xmastree/ChristmasTrees.java) |
 | XORBIT | [XOR Bit](https://www.codechef.com/CDIV2022/problems/XORBIT) | [Java](src/main/java/com/github/pareronia/codechef/xorbit/XORBit.java) |
 | XORORED | [XOR-ORED](https://www.codechef.com/problems/XORORED) | [Java](src/main/java/com/github/pareronia/codechef/xorored/XorOred.java) |
 | ZCO14003 | [Smart Phone](https://www.codechef.com/LRNDSA01/problems/ZCO14003) | [Java](src/main/java/com/github/pareronia/codechef/zco14003/SmartPhone.java) |
