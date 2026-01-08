@@ -114,6 +114,7 @@ https://www.codechef.com/
 | NANDXOR | [Dragonado And XOR](https://www.codechef.com/COOK139C/problems/NANDXOR) | [Java](src/main/java/com/github/pareronia/codechef/nandxor/DragonadoAndXOR.java) |
 | NONADJFLIP | [Non Adjacent Flips](https://www.codechef.com/START33C/problems/NONADJFLIP) | [Java](src/main/java/com/github/pareronia/codechef/nonadjflip/NonAdjacentFlips.java) |
 | NOTUNIT | [Dazzling GCD Pair](https://www.codechef.com/APRIL221C/problems/NOTUNIT) | [Java](src/main/java/com/github/pareronia/codechef/notunit/DazzlingGCDPair.java) |
+| NYRES | [New Year Resolution](https://www.codechef.com/problems/NYRES) | [Java](src/main/java/com/github/pareronia/codechef/nyres/NewYearResolution.java) |
 | OLYRANK | [Olympics Ranking](https://www.codechef.com/problems/OLYRANK) | [Java](src/main/java/com/github/pareronia/codechef/olyrank/OlympicsRanking.java) |
 | PAIRPAIN | [Pair Pain](https://www.codechef.com/LTIME107C/problems/PAIRPAIN) | [Java](src/main/java/com/github/pareronia/codechef/pairpain/PairPain.java) |
 | PALINPAIN | [Palindrome Pain](https://www.codechef.com/LTIME107C/problems/PALINPAIN) | [Java](src/main/java/com/github/pareronia/codechef/palinpain/PalindromePain.java) |
