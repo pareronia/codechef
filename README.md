@@ -70,6 +70,7 @@ https://www.codechef.com/
 | EXPIRY | [Expiring Bread](https://www.codechef.com/START34C/problems/EXPIRY) | [Java](src/main/java/com/github/pareronia/codechef/expiry/ExpiringBread.java) |
 | EXTRICHK | [Triangle Everywhere](https://www.codechef.com/CCSTART2/problems/EXTRICHK) | [Java](src/main/java/com/github/pareronia/codechef/extrichk/TriangleEverywhere.java) |
 | FBC | [Fill the Bucket](https://www.codechef.com/START29D/problems/FBC) | [Java](src/main/java/com/github/pareronia/codechef/fbc/FillTheBucket.java) |
+| FBMATCH | [Front-Back Matching](https://www.codechef.com/problems/FBMATCH) | [Java](src/main/java/com/github/pareronia/codechef/fbmatch/FrontBackMatching.java) |
 | FINDMELI | [Find Me](https://www.codechef.com/CCSTART2/problems/FINDMELI) | [Java](src/main/java/com/github/pareronia/codechef/findmeli/FindMe.java) |
 | FINDSHOES | [Finding Shoes](https://www.codechef.com/START32B/problems/FINDSHOES) | [Java](src/main/java/com/github/pareronia/codechef/findshoes/FindingShoes.java) |
 | FLIPSORT | [Flip Sorting](https://www.codechef.com/START32B/problems/FLIPSORT) | [Java](src/main/java/com/github/pareronia/codechef/flipsort/FlipSorting.java) |
