@@ -158,6 +158,7 @@ https://www.codechef.com/
 | TRAVELPS | [Travel Pass](https://www.codechef.com/SEPT21C/problems/TRAVELPS) | [Java](src/main/java/com/github/pareronia/codechef/travelps/TravelPass.java) |
 | TRIVALCH | [Valid Triangle Or Not](https://www.codechef.com/CCSTART2/problems/TRIVALCH) | [Java](src/main/java/com/github/pareronia/codechef/trivalch/ValidTriangleOrNot.java) |
 | TRUESCORE | [Is the Score Consistent](https://www.codechef.com/START34C/problems/TRUESCORE) | [Java](src/main/java/com/github/pareronia/codechef/truescore/IsTheScoreConsistent.java) |
+| TWOPLG | [Two Pile Game](https://www.codechef.com/problems/TWOPLG) | [Java](src/main/java/com/github/pareronia/codechef/twoplg/TwoPileGame.java) |
 | TYRE | [Tyre problem](https://www.codechef.com/START29D/problems/TYRE) | [Java](src/main/java/com/github/pareronia/codechef/tyre/TyreProblem.java) |
 | UNCHANGEDOR | [The Unchanging OR](https://www.codechef.com/START31C/problems/UNCHANGEDOR) | [Java](src/main/java/com/github/pareronia/codechef/unchangedor/TheUnchangingOR.java) |
 | VALTRI | [Raju and His Trip](https://www.codechef.com/CCSTART2/problems/VALTRI) | [Java](src/main/java/com/github/pareronia/codechef/valtri/RajuAndHisTrip.java) |
