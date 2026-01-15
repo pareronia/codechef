@@ -101,6 +101,7 @@ https://www.codechef.com/
 | LMP1 | [Protein Diet](https://www.codechef.com/problems/LMP1) | [Java](src/main/java/com/github/pareronia/codechef/lmp1/ProteinDiet.java) |
 | LMP2 | [Odd String](https://www.codechef.com/problems/LMP2) | [Java](src/main/java/com/github/pareronia/codechef/lmp2/OddString.java) |
 | LMP2E | [Winter is Coming](https://www.codechef.com/problems/LMP2E) | [Java](src/main/java/com/github/pareronia/codechef/lmp2e/WinterIsComing.java) |
+| LMP3 | [Odd Operations](https://www.codechef.com/problems/LMP3) | [Java](src/main/java/com/github/pareronia/codechef/lmp3/OddOperations.java) |
 | LONGPALI | [Longest Palindrome](https://www.codechef.com/IARCSJUD/problems/LONGPALI) | [Java](src/main/java/com/github/pareronia/codechef/longpali/LongestPalindrome.java) |
 | LTIME | [Lunchtime](https://www.codechef.com/LTIME107C/problems/LTIME) | [Java](src/main/java/com/github/pareronia/codechef/ltime/Lunchtime.java) |
 | LUCKFOUR | [Lucky Four](https://www.codechef.com/problems/LUCKFOUR) | [Java](src/main/java/com/github/pareronia/codechef/luckfour/LuckyFour.java) |
