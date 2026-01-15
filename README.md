@@ -99,6 +99,7 @@ https://www.codechef.com/
 | LAPIN | [Lapindromes](https://www.codechef.com/LRNDSA01/problems/LAPIN) | [Java](src/main/java/com/github/pareronia/codechef/lapin/Lapindromes.java) |
 | LEADGAME | [Lead Game](https://www.codechef.com/IARCSJUD/problems/LEADGAME) | [Java](src/main/java/com/github/pareronia/codechef/leadgame/LeadGame.java) |
 | LMP1 | [Protein Diet](https://www.codechef.com/problems/LMP1) | [Java](src/main/java/com/github/pareronia/codechef/lmp1/ProteinDiet.java) |
+| LMP2 | [Odd String](https://www.codechef.com/problems/LMP2) | [Java](src/main/java/com/github/pareronia/codechef/lmp2/OddString.java) |
 | LMP2E | [Winter is Coming](https://www.codechef.com/problems/LMP2E) | [Java](src/main/java/com/github/pareronia/codechef/lmp2e/WinterIsComing.java) |
 | LONGPALI | [Longest Palindrome](https://www.codechef.com/IARCSJUD/problems/LONGPALI) | [Java](src/main/java/com/github/pareronia/codechef/longpali/LongestPalindrome.java) |
 | LTIME | [Lunchtime](https://www.codechef.com/LTIME107C/problems/LTIME) | [Java](src/main/java/com/github/pareronia/codechef/ltime/Lunchtime.java) |
