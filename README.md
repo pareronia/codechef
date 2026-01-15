@@ -98,6 +98,7 @@ https://www.codechef.com/
 | KMAX2 | [K-th Maximum](https://www.codechef.com/problems/KMAX2) | [Java](src/main/java/com/github/pareronia/codechef/kmax2/KThMaximum.java) |
 | LAPIN | [Lapindromes](https://www.codechef.com/LRNDSA01/problems/LAPIN) | [Java](src/main/java/com/github/pareronia/codechef/lapin/Lapindromes.java) |
 | LEADGAME | [Lead Game](https://www.codechef.com/IARCSJUD/problems/LEADGAME) | [Java](src/main/java/com/github/pareronia/codechef/leadgame/LeadGame.java) |
+| LMP1 | [Protein Diet](https://www.codechef.com/problems/LMP1) | [Java](src/main/java/com/github/pareronia/codechef/lmp1/ProteinDiet.java) |
 | LONGPALI | [Longest Palindrome](https://www.codechef.com/IARCSJUD/problems/LONGPALI) | [Java](src/main/java/com/github/pareronia/codechef/longpali/LongestPalindrome.java) |
 | LTIME | [Lunchtime](https://www.codechef.com/LTIME107C/problems/LTIME) | [Java](src/main/java/com/github/pareronia/codechef/ltime/Lunchtime.java) |
 | LUCKFOUR | [Lucky Four](https://www.codechef.com/problems/LUCKFOUR) | [Java](src/main/java/com/github/pareronia/codechef/luckfour/LuckyFour.java) |
