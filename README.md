@@ -145,6 +145,7 @@ https://www.codechef.com/
 | SHOEFIT | [Shoe Fit](https://www.codechef.com/problems/SHOEFIT) | [Java](src/main/java/com/github/pareronia/codechef/shoefit/ShoeFit.java) |
 | SHUFFLIN | [Shuffling Parities](https://www.codechef.com/SEPT21C/problems/SHUFFLIN) | [Java](src/main/java/com/github/pareronia/codechef/shufflin/ShufflingParities.java) |
 | SIGNMOVE | [Sign Moves](https://www.codechef.com/START31C/problems/SIGNMOVE) | [Java](src/main/java/com/github/pareronia/codechef/signmove/SignMoves.java) |
+| SORTPREF | [Sorting Prefixes](https://www.codechef.com/problems/SORTPREF) | [Java](src/main/java/com/github/pareronia/codechef/sortpref/SortingPrefixes.java) |
 | SORTROWS | [Sorting Rows of Numbers](https://www.codechef.com/IARCSJUD/problems/SORTROWS) | [Java](src/main/java/com/github/pareronia/codechef/sortrows/SortingRowsOfNumbers.java) |
 | SPLITPAIR | [Sad Splits](https://www.codechef.com/LTIME106C/problems/SPLITPAIR) | [Java](src/main/java/com/github/pareronia/codechef/splitpair/SadSplits.java) |
 | SQALPAT | [Alternative Square Pattern](https://www.codechef.com/CCSTART2/problems/SQALPAT) | [Java](src/main/java/com/github/pareronia/codechef/sqalpat/AlternativeSquarePattern.java) |
