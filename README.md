@@ -98,6 +98,7 @@ https://www.codechef.com/
 | JOKRBTMN | [Joker and Batman](https://www.codechef.com/START6C/problems/JOKRBTMN) | [Java](src/main/java/com/github/pareronia/codechef/jokrbtmn/Main.java) |
 | KMAX2 | [K-th Maximum](https://www.codechef.com/problems/KMAX2) | [Java](src/main/java/com/github/pareronia/codechef/kmax2/KThMaximum.java) |
 | LAPIN | [Lapindromes](https://www.codechef.com/LRNDSA01/problems/LAPIN) | [Java](src/main/java/com/github/pareronia/codechef/lapin/Lapindromes.java) |
+| LAYERCAKE | [Layered Cake](https://www.codechef.com/problems/LAYERCAKE) | [Java](src/main/java/com/github/pareronia/codechef/layercake/LayeredCake.java) |
 | LEADGAME | [Lead Game](https://www.codechef.com/IARCSJUD/problems/LEADGAME) | [Java](src/main/java/com/github/pareronia/codechef/leadgame/LeadGame.java) |
 | LMP1 | [Protein Diet](https://www.codechef.com/problems/LMP1) | [Java](src/main/java/com/github/pareronia/codechef/lmp1/ProteinDiet.java) |
 | LMP2 | [Odd String](https://www.codechef.com/problems/LMP2) | [Java](src/main/java/com/github/pareronia/codechef/lmp2/OddString.java) |
