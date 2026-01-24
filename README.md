@@ -142,6 +142,7 @@ https://www.codechef.com/
 | RNGEODD | [Range Odd](https://www.codechef.com/CCSTART2/problems/RNGEODD) | [Java](src/main/java/com/github/pareronia/codechef/rngeodd/RangeOdd.java) |
 | SALE2 | [Buy 2 Get 1 Free](https://www.codechef.com/LTIME106C/problems/SALE2) | [Java](src/main/java/com/github/pareronia/codechef/sale2/Buy2Get1Free.java) |
 | SECLAR | [Find Second Largest](https://www.codechef.com/CCSTART2/problems/SECLAR) | [Java](src/main/java/com/github/pareronia/codechef/seclar/FindSecondLargest.java) |
+| SELL2 | [Sell Upto 2](https://www.codechef.com/problems/SELL2) | [Java](src/main/java/com/github/pareronia/codechef/sell2/SellUpto2.java) |
 | SHOEFIT | [Shoe Fit](https://www.codechef.com/problems/SHOEFIT) | [Java](src/main/java/com/github/pareronia/codechef/shoefit/ShoeFit.java) |
 | SHUFFLIN | [Shuffling Parities](https://www.codechef.com/SEPT21C/problems/SHUFFLIN) | [Java](src/main/java/com/github/pareronia/codechef/shufflin/ShufflingParities.java) |
 | SIGNMOVE | [Sign Moves](https://www.codechef.com/START31C/problems/SIGNMOVE) | [Java](src/main/java/com/github/pareronia/codechef/signmove/SignMoves.java) |
