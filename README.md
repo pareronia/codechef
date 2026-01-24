@@ -125,6 +125,7 @@ https://www.codechef.com/
 | PAIRPAIN | [Pair Pain](https://www.codechef.com/LTIME107C/problems/PAIRPAIN) | [Java](src/main/java/com/github/pareronia/codechef/pairpain/PairPain.java) |
 | PALINPAIN | [Palindrome Pain](https://www.codechef.com/LTIME107C/problems/PALINPAIN) | [Java](src/main/java/com/github/pareronia/codechef/palinpain/PalindromePain.java) |
 | PENALTY | [Penalty Shots](https://www.codechef.com/problems/PENALTY) | [Java](src/main/java/com/github/pareronia/codechef/penalty/PenaltyShots.java) |
+| POPCORN7 | [Popcorn Buying](https://www.codechef.com/problems/POPCORN7) | [Java](src/main/java/com/github/pareronia/codechef/popcorn7/PopcornBuying.java) |
 | POSPROD | [Positive Products](https://www.codechef.com/START34C/problems/POSPROD) | [Java](src/main/java/com/github/pareronia/codechef/posprod/PositiveProducts.java) |
 | PRDW02 | [String Issue](https://www.codechef.com/PRWC2022/problems/PRDW02) | [Java](src/main/java/com/github/pareronia/codechef/prdw02/StringIssue.java) |
 | PRIMESM | [Prime Sum](https://www.codechef.com/APRIL221C/problems/PRIMESM) | [Java](src/main/java/com/github/pareronia/codechef/primesm/PrimeSum.java) |
