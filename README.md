@@ -29,6 +29,7 @@ https://www.codechef.com/
 | BUTYPAIR | [Beautiful Pairs](https://www.codechef.com/LTIME98C/problems/BUTYPAIR) | [Java](src/main/java/com/github/pareronia/codechef/butypair/BeautifulPairs.java) |
 | BUYPLSE | [Buy Please](https://www.codechef.com/CCSTART2/problems/BUYPLSE) | [Java](src/main/java/com/github/pareronia/codechef/buyplse/BuyPlease.java) |
 | CABS | [The Cheaper Cab](https://www.codechef.com/START33C/problems/CABS) | [Java](src/main/java/com/github/pareronia/codechef/cabs/TheCheaperCab.java) |
+| CANDYTYPE | [Candy Types](https://www.codechef.com/problems/CANDYTYPE) | [Java](src/main/java/com/github/pareronia/codechef/candytype/CandyTypes.java) |
 | CARVANS | [Carvans](https://www.codechef.com/LRNDSA01/problems/CARVANS) | [Java](src/main/java/com/github/pareronia/codechef/carvans/Carvans.java) |
 | CDIGLNUM | [Chef and Digits of Large Numbers](https://www.codechef.com/problems/CDIGLNUM) | [Java](src/main/java/com/github/pareronia/codechef/cdiglnum/ChefAndDigitsOfLargeNumbers.java) |
 | CEILSUM | [Ceiling Sum](https://www.codechef.com/problems/CEILSUM) | [Java](src/main/java/com/github/pareronia/codechef/ceilsum/Main.java) |
